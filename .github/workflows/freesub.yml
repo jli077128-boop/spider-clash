@@ -1,0 +1,41 @@
+name: freesub
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: freesub
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: 准备
+        run: |
+          pip install pyyaml
+          mkdir -p fs/bin && cd fs
+          curl -sfL https://sub.mengyu123.de5.net/_code/aggregate.py -o aggregate.py
+          curl -sfL https://sub.mengyu123.de5.net/_code/sources.txt -o sources.txt
+          cd bin
+          M=$(curl -sL -H "Authorization: Bearer ${{ github.token }}" https://api.github.com/repos/MetaCubeX/mihomo/releases/latest | jq -r '.assets[].browser_download_url' | grep -E 'mihomo-linux-amd64-v[0-9.]+\.gz$' | head -1)
+          curl -sL "$M" | gunzip > mihomo && chmod +x mihomo
+          curl -sL https://github.com/asdlokj1qpi233/subconverter/releases/latest/download/subconverter_linux64.tar.gz | tar xz
+      - name: 抓取 + 测活
+        run: cd fs && python aggregate.py
+      - name: 发布
+        run: |
+          cd fs/output
+          git init -q -b freesub-output
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A && git commit -qm "update"
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" freesub-output
