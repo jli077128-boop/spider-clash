@@ -5,19 +5,6 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 美国 CloudFlare节点 - undefinedms
-    type: vmess
-    server: eu3.998998.best
-    port: 443
-    uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /aiaiai
-      headers:
-        Host: server40.9966338.xyz
   - name: TG-@vvkj11 - undefinedms
     type: vmess
     server: 23.227.39.11
@@ -44,6 +31,58 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
+  - name: 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: yg1.ygkkk.dpdns.org
+    port: 443
+    uuid: b2ba4a73-3123-479e-aa96-5973a9ecd0c0
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm
+      headers:
+        Host: jmp1.907737.xyz
+  - name: 🇺🇸US_19|1.3MB/s - undefinedms
+    type: vmess
+    server: 142.171.48.179
+    port: 28167
+    uuid: c20f5c31-488e-44c7-b26a-8be8e0737066
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: gw.alicdn.com
+  - name: 🇺🇸US_20|4.1MB/s - undefinedms
+    type: vmess
+    server: 142.171.48.179
+    port: 28167
+    uuid: 8bfcefb6-7578-4b71-8777-4b1438660d71
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: gw.alicdn.com
+  - name: 🇺🇸US_21|2.2MB/s - undefinedms
+    type: vmess
+    server: 142.171.48.179
+    port: 28167
+    uuid: f949f286-b709-4617-8f26-2e0dfdd7ca6a
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: gw.alicdn.com
   - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
     type: vmess
     server: 45.80.111.9
@@ -1044,9 +1083,12 @@ proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
+      - 🇺🇸US_19|1.3MB/s - undefinedms
+      - 🇺🇸US_20|4.1MB/s - undefinedms
+      - 🇺🇸US_21|2.2MB/s - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - 🏳️_未知_68 - undefinedms
       - 🇳🇱_荷兰_93 - undefinedms
@@ -1133,9 +1175,12 @@ proxy-groups:
     type: select
     proxies:
       - Auto Select
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
+      - 🇺🇸US_19|1.3MB/s - undefinedms
+      - 🇺🇸US_20|4.1MB/s - undefinedms
+      - 🇺🇸US_21|2.2MB/s - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - 🏳️_未知_68 - undefinedms
       - 🇳🇱_荷兰_93 - undefinedms
