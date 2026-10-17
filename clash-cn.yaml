@@ -1,0 +1,386 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: info
+unified-delay: true
+tcp-concurrent: true
+dns:
+  enable: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  nameserver:
+  - https://223.5.5.5/dns-query
+  - https://doh.pub/dns-query
+  fake-ip-filter:
+  - '*.lan'
+  - +.local
+  - +.msftconnecttest.com
+  - +.msftncsi.com
+proxies:
+- name: 🇨🇦 CA-01 vless 106ms ✅CN
+  server: 188.114.97.6
+  port: 443
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  tls: true
+  alpn:
+  - http/1.1
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyipfp=chrome
+    headers:
+      Host: lucasjow.us.ci
+  udp: true
+- name: 🇨🇦 CA-02 vless 108ms ✅CN
+  server: 104.18.43.174
+  port: 443
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+  udp: true
+- name: 🇨🇦 CA-03 vless 128ms ✅CN
+  server: 188.114.98.0
+  port: 443
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  tls: true
+  alpn:
+  - http%2F1.1
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM-TOOTFFARANGI
+    headers:
+      Host: lucasjow.us.ci
+  udp: true
+- name: 🇨🇦 CA-04 vmess 203ms ✅CN
+  server: 104.17.147.222
+  port: 80
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ws?ed=2048
+    headers:
+      Host: vmess.lbw666.dpdns.org
+  udp: true
+- name: 🇺🇸 US-01 ss 206ms ✅CN
+  server: 18.226.185.149
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: 🇨🇦 CA-05 vmess 216ms ✅CN
+  server: us16-4.998998.best
+  port: 443
+  type: vmess
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: server1.9966338.xyz
+  network: ws
+  ws-opts:
+    path: /efrsdioy98wert
+    headers:
+      Host: server1.9966338.xyz
+  udp: true
+- name: 🇨🇦 CA-06 vmess 238ms ✅CN
+  server: 104.17.136.198
+  port: 443
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: vmess.lbw666.dpdns.org
+  network: ws
+  ws-opts:
+    path: /ws?ed=2048
+    headers:
+      Host: vmess.lbw666.dpdns.org
+  udp: true
+- name: 🇨🇦 CA-07 vmess 262ms ✅CN
+  server: 172.64.229.21
+  port: 443
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ws?ed=2048
+    headers:
+      Host: vmess.lbw666.dpdns.org
+  udp: true
+- name: 🇨🇦 CA-08 vmess 316ms ✅CN
+  server: 172.66.203.67
+  port: 443
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ws?ed=2048
+    headers:
+      Host: vmess.lbw666.dpdns.org
+  udp: true
+- name: 🇨🇦 CA-09 vmess 358ms ✅CN
+  server: cf.090227.xyz
+  port: 443
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: vmess.lbw666.dpdns.org
+  network: ws
+  ws-opts:
+    path: /ws?ed=2048
+    headers:
+      Host: vmess.lbw666.dpdns.org
+  udp: true
+- name: 🇨🇦 CA-10 vmess 420ms ✅CN
+  server: cf.0sm.com
+  port: 443
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: vmess.lbw666.dpdns.org
+  network: ws
+  ws-opts:
+    path: /ws?ed=2048
+    headers:
+      Host: vmess.lbw666.dpdns.org
+  udp: true
+- name: 🇨🇦 CA-11 vmess 462ms ✅CN
+  server: cf.877771.xyz
+  port: 443
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: vmess.lbw666.dpdns.org
+  network: ws
+  ws-opts:
+    path: /ws?ed=2048
+    headers:
+      Host: vmess.lbw666.dpdns.org
+  udp: true
+- name: 🇩🇪 DE-01 ss 516ms ✅CN
+  server: b2a2.velqixa.ir
+  port: 39221
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: Pzlcb_PeV3uRgiC2NNoNKw
+  udp: true
+- name: 🇯🇵 JP-01 trojan 556ms ✅CN
+  server: 185.220.238.77
+  port: 11543
+  type: trojan
+  password: HutaoCloud
+  sni: 185.220.238.77
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /api
+    headers:
+      Host: 185.220.238.77
+  udp: true
+- name: 🇺🇸 US-02 vless 571ms ✅CN
+  server: 152.232.57.10
+  port: 443
+  type: vless
+  uuid: 082f5694-9019-4110-b67b-8125dbb9bab8
+  tls: true
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  reality-opts:
+    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
+    short-id: a8
+  servername: api.videobereg.cc
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇫🇷 FR-01 vless 589ms ✅CN
+  server: 163.245.42.48
+  port: 443
+  type: vless
+  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
+  tls: true
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: mother-earth.fyi
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇫🇷 FR-02 vless 604ms ✅CN
+  server: edge.bookmai.com
+  port: 443
+  type: vless
+  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
+  tls: true
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: mother-earth.fyi
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇭🇰 HK-01 anytls 616ms ✅CN
+  server: 56481.df6h451rh.xin
+  port: 443
+  type: anytls
+  password: ec74bb6a86c2
+  udp: true
+  sni: images.ctfassets.net
+  skip-cert-verify: true
+- name: 🇫🇮 FI-01 vless 644ms ✅CN
+  server: 152.233.71.81
+  port: 443
+  type: vless
+  uuid: 741809be-e44e-000b-b411-bf66f0ae3860
+  tls: true
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY
+    short-id: 1c3e8241a8743df9
+  servername: brointelengence.com
+  client-fingerprint: random
+  network: tcp
+  udp: true
+- name: 🇺🇸 US-03 hysteria2 656ms ✅CN
+  server: starlink-ft.251313.xyz
+  port: 443
+  type: hysteria2
+  password: https://xship.2fa.cat
+  auth: https://xship.2fa.cat
+  sni: xship.top
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸 US-04 hysteria2 672ms ✅CN
+  server: starlink-ft.251313.xyz
+  port: 443
+  type: hysteria2
+  password: https://xship.top
+  auth: https://xship.top
+  sni: xship.top
+  skip-cert-verify: true
+  udp: true
+- name: 🇬🇧 GB-01 anytls 778ms ✅CN
+  server: gb2.xiaoliyu.cyou
+  port: 4430
+  type: anytls
+  password: 5b4f91fa-e64f-4af0-a5c2-b27ac8b52939
+  udp: true
+  skip-cert-verify: true
+proxy-groups:
+- name: 🚀 节点选择
+  type: select
+  proxies:
+  - ♻️ 自动选择
+  - 🔯 故障转移
+  - DIRECT
+  - 🇨🇦 CA-01 vless 106ms ✅CN
+  - 🇨🇦 CA-02 vless 108ms ✅CN
+  - 🇨🇦 CA-03 vless 128ms ✅CN
+  - 🇨🇦 CA-04 vmess 203ms ✅CN
+  - 🇺🇸 US-01 ss 206ms ✅CN
+  - 🇨🇦 CA-05 vmess 216ms ✅CN
+  - 🇨🇦 CA-06 vmess 238ms ✅CN
+  - 🇨🇦 CA-07 vmess 262ms ✅CN
+  - 🇨🇦 CA-08 vmess 316ms ✅CN
+  - 🇨🇦 CA-09 vmess 358ms ✅CN
+  - 🇨🇦 CA-10 vmess 420ms ✅CN
+  - 🇨🇦 CA-11 vmess 462ms ✅CN
+  - 🇩🇪 DE-01 ss 516ms ✅CN
+  - 🇯🇵 JP-01 trojan 556ms ✅CN
+  - 🇺🇸 US-02 vless 571ms ✅CN
+  - 🇫🇷 FR-01 vless 589ms ✅CN
+  - 🇫🇷 FR-02 vless 604ms ✅CN
+  - 🇭🇰 HK-01 anytls 616ms ✅CN
+  - 🇫🇮 FI-01 vless 644ms ✅CN
+  - 🇺🇸 US-03 hysteria2 656ms ✅CN
+  - 🇺🇸 US-04 hysteria2 672ms ✅CN
+  - 🇬🇧 GB-01 anytls 778ms ✅CN
+- name: ♻️ 自动选择
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: true
+  proxies: &id001
+  - 🇨🇦 CA-01 vless 106ms ✅CN
+  - 🇨🇦 CA-02 vless 108ms ✅CN
+  - 🇨🇦 CA-03 vless 128ms ✅CN
+  - 🇨🇦 CA-04 vmess 203ms ✅CN
+  - 🇺🇸 US-01 ss 206ms ✅CN
+  - 🇨🇦 CA-05 vmess 216ms ✅CN
+  - 🇨🇦 CA-06 vmess 238ms ✅CN
+  - 🇨🇦 CA-07 vmess 262ms ✅CN
+  - 🇨🇦 CA-08 vmess 316ms ✅CN
+  - 🇨🇦 CA-09 vmess 358ms ✅CN
+  - 🇨🇦 CA-10 vmess 420ms ✅CN
+  - 🇨🇦 CA-11 vmess 462ms ✅CN
+  - 🇩🇪 DE-01 ss 516ms ✅CN
+  - 🇯🇵 JP-01 trojan 556ms ✅CN
+  - 🇺🇸 US-02 vless 571ms ✅CN
+  - 🇫🇷 FR-01 vless 589ms ✅CN
+  - 🇫🇷 FR-02 vless 604ms ✅CN
+  - 🇭🇰 HK-01 anytls 616ms ✅CN
+  - 🇫🇮 FI-01 vless 644ms ✅CN
+  - 🇺🇸 US-03 hysteria2 656ms ✅CN
+  - 🇺🇸 US-04 hysteria2 672ms ✅CN
+  - 🇬🇧 GB-01 anytls 778ms ✅CN
+- name: 🔯 故障转移
+  type: fallback
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  lazy: true
+  proxies: *id001
+- name: 🐟 漏网之鱼
+  type: select
+  proxies:
+  - 🚀 节点选择
+  - DIRECT
+rules:
+- GEOSITE,private,DIRECT
+- GEOIP,private,DIRECT,no-resolve
+- GEOSITE,cn,DIRECT
+- GEOIP,CN,DIRECT
+- GEOSITE,geolocation-!cn,🚀 节点选择
+- MATCH,🐟 漏网之鱼
