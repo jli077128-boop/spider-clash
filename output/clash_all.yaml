@@ -44,15 +44,6 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: ip18.6929198.xyz
-  - name: 🇺🇸US_1|4.1MB/s - undefinedms
-    type: vmess
-    server: v29.hdacd.com
-    port: 30829
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
   - name: 🏳️_未知_66 - undefinedms
     type: vmess
     server: '[2606:4700:9a98::890:1d33]'
@@ -635,7 +626,6 @@ proxy-groups:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇺🇸US_1|4.1MB/s - undefinedms
       - 🏳️_未知_66 - undefinedms
       - 🇺🇸_US_美国 - undefinedms
       - 🇨🇳_CN_中国 - undefinedms
@@ -692,7 +682,6 @@ proxy-groups:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇺🇸US_1|4.1MB/s - undefinedms
       - 🏳️_未知_66 - undefinedms
       - 🇺🇸_US_美国 - undefinedms
       - 🇨🇳_CN_中国 - undefinedms
