@@ -1,0 +1,2589 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: info
+unified-delay: true
+tcp-concurrent: true
+dns:
+  enable: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  nameserver:
+  - https://223.5.5.5/dns-query
+  - https://doh.pub/dns-query
+  fake-ip-filter:
+  - '*.lan'
+  - +.local
+  - +.msftconnecttest.com
+  - +.msftncsi.com
+proxies:
+- name: 🇨🇦 CA-01 vless ⚡优选 246ms ✅CN 🔴联通
+  server: saas.sin.fan
+  port: 443
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  tls: true
+  alpn:
+  - http%2F1.1
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM-TOOTFFARANGI
+    headers:
+      Host: lucasjow.us.ci
+  udp: true
+- name: 🇨🇦 CA-02 vless 250ms ✅CN 🔴联通
+  server: 104.18.43.174
+  port: 443
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+  udp: true
+- name: 🇨🇦 CA-03 vless 256ms ✅CN 🔴联通
+  server: 172.67.155.65
+  port: 2053
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip
+    headers:
+      Host: lucasjow.us.ci
+  udp: true
+- name: 🇨🇦 CA-04 vless ⚡优选 270ms ✅CN 🔴联通
+  server: saas.sin.fan
+  port: 2053
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---
+    headers:
+      Host: lucasjow.us.ci
+  udp: true
+- name: 🇺🇸 US-01 vless 278ms ✅CN 🔴联通
+  server: 162.159.250.29
+  port: 443
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+  udp: true
+- name: 🇨🇦 CA-05 vless ⚡优选 298ms ✅CN 🔴联通
+  server: www.visa.com.sg
+  port: 443
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  tls: true
+  alpn:
+  - http%2F1.1
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM-TOOTFFARANGI
+    headers:
+      Host: lucasjow.us.ci
+  udp: true
+- name: 🇨🇦 CA-06 vless ⚡优选 302ms ✅CN 🔴联通
+  server: www.visa.com.sg
+  port: 8443
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
+    headers:
+      Host: lucasjow.us.ci
+  udp: true
+- name: 🇨🇦 CA-07 vless 304ms ✅CN 🔴联通
+  server: 188.114.97.6
+  port: 2053
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---
+    headers:
+      Host: lucasjow.us.ci
+  udp: true
+- name: 🇨🇦 CA-08 vless ⚡优选 310ms ✅CN 🔴联通
+  server: www.visa.com.sg
+  port: 2053
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip
+    headers:
+      Host: lucasjow.us.ci
+  udp: true
+- name: 🇨🇦 CA-09 vless 314ms ✅CN 🔴联通
+  server: 188.114.98.0
+  port: 443
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  tls: true
+  alpn:
+  - http%2F1.1
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM-TOOTFFARANGI
+    headers:
+      Host: lucasjow.us.ci
+  udp: true
+- name: 🇮🇪 IE-01 ss 322ms ✅CN
+  server: 20.166.51.228
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: LVMlhvK82To1FGsy
+  udp: true
+- name: 🇨🇦 CA-10 vless 341ms ✅CN 🔴联通
+  server: 104.21.91.244
+  port: 443
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  tls: true
+  alpn:
+  - http/1.1
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome
+    headers:
+      Host: lucasjow.us.ci
+  udp: true
+- name: 🇨🇦 CA-11 vless ⚡优选 354ms ✅CN 🔴联通
+  server: cloudflare.182682.xyz
+  port: 2053
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip
+    headers:
+      Host: lucasjow.us.ci
+  udp: true
+- name: 🇨🇦 CA-12 vless ⚡优选 368ms ✅CN 🔴联通
+  server: cloudflare.182682.xyz
+  port: 8443
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
+    headers:
+      Host: lucasjow.us.ci
+  udp: true
+- name: 🇨🇦 CA-13 vless ⚡优选 394ms ✅CN 🔴联通
+  server: cloudflare.182682.xyz
+  port: 443
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  tls: true
+  alpn:
+  - http/1.1
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome
+    headers:
+      Host: lucasjow.us.ci
+  udp: true
+- name: 🇨🇦 CA-14 vmess 406ms ✅CN 🔴联通
+  server: us16-4.998998.best
+  port: 443
+  type: vmess
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: server1.9966338.xyz
+  network: ws
+  ws-opts:
+    path: /efrsdioy98wert
+    headers:
+      Host: server1.9966338.xyz
+  udp: true
+- name: 🇨🇦 CA-15 vless ⚡优选 410ms ✅CN 🔴联通
+  server: cf.090227.xyz
+  port: 2053
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---
+    headers:
+      Host: lucasjow.us.ci
+  udp: true
+- name: 🇮🇹 IT-01 ss 452ms ✅CN 🔴联通
+  server: 202.50.253.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇨🇦 CA-16 vless ⚡优选 456ms ✅CN 🔴联通
+  server: cf.090227.xyz
+  port: 443
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  tls: true
+  alpn:
+  - http%2F1.1
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM-TOOTFFARANGI
+    headers:
+      Host: lucasjow.us.ci
+  udp: true
+- name: 🇨🇦 CA-17 vmess ⚡优选 458ms ✅CN 🔴联通
+  server: www.visa.com.sg
+  port: 443
+  type: vmess
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /efrsdioy98wert
+    headers:
+      Host: server1.9966338.xyz
+  udp: true
+  servername: server1.9966338.xyz
+- name: 🇳🇱 NL-01 ssr 462ms ✅CN 🔴联通
+  server: 109.104.153.43
+  port: 33336
+  type: ssr
+  cipher: chacha20-ietf
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+  udp: true
+- name: 🇨🇦 CA-18 trojan 486ms ✅CN 🔴联通
+  server: b2n.ir
+  port: 443
+  type: trojan
+  password: mitivpn
+  sni: de.mitivpn.in.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: de.mitivpn.in.net
+  udp: true
+- name: 🇫🇷 FR-01 vless 489ms ✅CN 🔴联通
+  server: edge.bookmai.com
+  port: 443
+  type: vless
+  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
+  tls: true
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: mother-earth.fyi
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇩🇪 DE-01 vless 517ms ✅CN 🔴联通
+  server: 149.33.47.172
+  port: 9443
+  type: vless
+  uuid: 82eb8419-59f4-4d3e-9106-d05d22af615c
+  tls: true
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
+    short-id: b390142456517acc
+  servername: www.amazon.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇫🇷 FR-02 vless 525ms ✅CN 🔴联通
+  server: 163.245.42.48
+  port: 443
+  type: vless
+  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
+  tls: true
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: mother-earth.fyi
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇭🇰 HK-01 vmess 545ms ✅CN 🔴联通
+  server: 47.242.81.94
+  port: 52080
+  type: vmess
+  uuid: e47b9f77-60e4-4738-8d53-772b6002e146
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /QQqun-737805443
+    headers:
+      Host:
+      - openai.com
+  udp: true
+- name: 🇨🇦 CA-19 vless 588ms ✅CN 🔴联通
+  server: 188.114.97.6
+  port: 443
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  tls: true
+  alpn:
+  - http/1.1
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---TOOTFARANGIfp=chrome
+    headers:
+      Host: lucasjow.us.ci
+  udp: true
+- name: 🇨🇦 CA-20 trojan 622ms ✅CN 🔴联通
+  server: 188.114.98.0
+  port: 443
+  type: trojan
+  password: mitivpn
+  sni: d-e.mitivpn.in.net
+  alpn:
+  - http/1.1
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: d-e.mitivpn.in.net
+  udp: true
+- name: 🇨🇦 CA-21 trojan ⚡优选 645ms ✅CN 🔴联通
+  server: cloudflare.182682.xyz
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.pleadcourt.org
+  alpn:
+  - http/1.1
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+  udp: true
+- name: 🇨🇦 CA-22 trojan ⚡优选 650ms ✅CN 🔴联通
+  server: www.visa.com.sg
+  port: 443
+  type: trojan
+  password: mitivpn
+  sni: d-e.mitivpn.in.net
+  alpn:
+  - http/1.1
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: d-e.mitivpn.in.net
+  udp: true
+- name: 🇨🇦 CA-23 trojan ⚡优选 651ms ✅CN 🔴联通
+  server: cf.090227.xyz
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.pleadcourt.org
+  alpn:
+  - http/1.1
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+  udp: true
+- name: 🇨🇦 CA-24 trojan ⚡优选 658ms ✅CN 🔴联通
+  server: www.visa.com.sg
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+  udp: true
+- name: 🇨🇦 CA-25 trojan 684ms ✅CN 🔴联通
+  server: 104.19.229.21
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+  udp: true
+- name: 🇨🇦 CA-26 trojan ⚡优选 684ms ✅CN 🔴联通
+  server: saas.sin.fan
+  port: 443
+  type: trojan
+  password: mitivpn
+  sni: de.mitivpn.in.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: ''
+    headers:
+      Host: de.mitivpn.in.net
+  udp: true
+- name: 🇪🇸 ES-01 trojan 763ms ✅CN
+  server: 185.114.72.31
+  port: 2053
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+  udp: true
+- name: 🇨🇦 CA-27 trojan ⚡优选 809ms ✅CN 🔴联通
+  server: cf.090227.xyz
+  port: 443
+  type: trojan
+  password: mitivpn
+  sni: d-e.mitivpn.in.net
+  alpn:
+  - http/1.1
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: d-e.mitivpn.in.net
+  udp: true
+- name: 🇨🇦 CA-28 trojan ⚡优选 1041ms ✅CN 🔴联通
+  server: cf.090227.xyz
+  port: 443
+  type: trojan
+  password: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  sni: nat3.xxai.dpdns.org
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /anyway
+    headers:
+      Host: nat3.xxai.dpdns.org
+  udp: true
+- name: 🇨🇦 CA-29 vless ⚡优选 1152ms ✅CN 🔴联通
+  server: www.visa.com.sg
+  port: 443
+  type: vless
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  tls: true
+  skip-cert-verify: true
+  servername: a.cwvps.eu.org
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+  udp: true
+- name: 🇨🇦 CA-30 trojan ⚡优选 1354ms ✅CN 🔴联通
+  server: saas.sin.fan
+  port: 2053
+  type: trojan
+  password: 040870be-ae04-43d7-b265-bbe7b64b60db
+  sni: au1.yang-1989.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /872y
+    headers:
+      Host: au1.yang-1989.xyz
+  udp: true
+- name: 🇨🇦 CA-31 trojan ⚡优选 1368ms ✅CN 🔴联通
+  server: saas.sin.fan
+  port: 2096
+  type: trojan
+  password: aa308698-d9a4-43ff-a563-14636919c971
+  sni: au4.yang-1989.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /qpf7
+    headers:
+      Host: au4.yang-1989.xyz
+  udp: true
+- name: 🇨🇦 CA-32 trojan ⚡优选 1370ms ✅CN 🔴联通
+  server: saas.sin.fan
+  port: 2087
+  type: trojan
+  password: 31794262-b429-4f35-8ffe-c1fa8a43b8d7
+  sni: au3.yang-1989.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /9f81
+    headers:
+      Host: au3.yang-1989.xyz
+  udp: true
+- name: 🇨🇦 CA-33 trojan ⚡优选 1394ms ✅CN 🔴联通
+  server: www.visa.com.sg
+  port: 2083
+  type: trojan
+  password: e0303a31-0daf-4d45-ae1e-2bc0544f0ad2
+  sni: au2.yang-1989.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /as2u
+    headers:
+      Host: au2.yang-1989.xyz
+  udp: true
+- name: 🇨🇦 CA-34 trojan ⚡优选 1416ms ✅CN 🔴联通
+  server: www.visa.com.sg
+  port: 2096
+  type: trojan
+  password: aa308698-d9a4-43ff-a563-14636919c971
+  sni: au4.yang-1989.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /qpf7
+    headers:
+      Host: au4.yang-1989.xyz
+  udp: true
+- name: 🇨🇦 CA-35 trojan ⚡优选 1420ms ✅CN 🔴联通
+  server: www.visa.com.sg
+  port: 2053
+  type: trojan
+  password: 040870be-ae04-43d7-b265-bbe7b64b60db
+  sni: au1.yang-1989.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /872y
+    headers:
+      Host: au1.yang-1989.xyz
+  udp: true
+- name: 🇨🇦 CA-36 vless ⚡优选 1440ms ✅CN 🔴联通
+  server: cf.090227.xyz
+  port: 443
+  type: vless
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  tls: true
+  skip-cert-verify: true
+  servername: a.cwvps.eu.org
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+  udp: true
+- name: 🇨🇦 CA-37 trojan ⚡优选 1447ms ✅CN 🔴联通
+  server: cloudflare.182682.xyz
+  port: 2053
+  type: trojan
+  password: 040870be-ae04-43d7-b265-bbe7b64b60db
+  sni: au1.yang-1989.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /872y
+    headers:
+      Host: au1.yang-1989.xyz
+  udp: true
+- name: 🇨🇦 CA-38 trojan ⚡优选 1458ms ✅CN 🔴联通
+  server: cloudflare.182682.xyz
+  port: 2096
+  type: trojan
+  password: aa308698-d9a4-43ff-a563-14636919c971
+  sni: au4.yang-1989.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /qpf7
+    headers:
+      Host: au4.yang-1989.xyz
+  udp: true
+- name: 🇨🇦 CA-39 trojan ⚡优选 1502ms ✅CN 🔴联通
+  server: cf.090227.xyz
+  port: 2087
+  type: trojan
+  password: 31794262-b429-4f35-8ffe-c1fa8a43b8d7
+  sni: au3.yang-1989.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /9f81
+    headers:
+      Host: au3.yang-1989.xyz
+  udp: true
+- name: 🇨🇦 CA-40 trojan ⚡优选 1514ms ✅CN 🔴联通
+  server: cf.090227.xyz
+  port: 2096
+  type: trojan
+  password: aa308698-d9a4-43ff-a563-14636919c971
+  sni: au4.yang-1989.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /qpf7
+    headers:
+      Host: au4.yang-1989.xyz
+  udp: true
+- name: 🇨🇦 CA-41 trojan ⚡优选 1515ms ✅CN 🔴联通
+  server: cf.090227.xyz
+  port: 2083
+  type: trojan
+  password: e0303a31-0daf-4d45-ae1e-2bc0544f0ad2
+  sni: au2.yang-1989.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /as2u
+    headers:
+      Host: au2.yang-1989.xyz
+  udp: true
+- name: 🇺🇸 US-02 ss 68ms
+  server: 156.146.38.169
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 US-03 ss 103ms
+  server: 37.19.198.243
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 US-04 ss 106ms
+  server: 185.215.132.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇨🇦 CA-42 ss 108ms
+  server: 137.184.174.93
+  port: 8080
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  udp: true
+- name: 🇺🇸 US-05 vmess 108ms
+  server: 67.220.95.3
+  port: 18000
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸 US-06 ss 109ms
+  server: 185.215.132.9
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 US-07 ss 118ms
+  server: 45.86.51.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 US-08 ss 144ms
+  server: 198.98.53.130
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: eDfN7SODQceIOmIAbtJJtK
+  udp: true
+- name: 🇺🇸 US-09 vless 146ms
+  server: 208.84.100.209
+  port: 8080
+  type: vless
+  uuid: 36c3dcc2-17b6-4478-b8a7-3978e6d5afe9
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+  udp: true
+- name: 🇺🇸 US-10 ss 148ms
+  server: 216.105.168.18
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: hCCWOcIsK5wrFz4OX70rWf
+  udp: true
+- name: 🇺🇸 US-11 hysteria2 162ms
+  server: clash2.deep-links.com
+  port: 443
+  type: hysteria2
+  password: 4c858cccff331e64c711a199a6cb256a
+  auth: 4c858cccff331e64c711a199a6cb256a
+  sni: clash2.deep-links.com
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸 US-12 hysteria2 164ms
+  server: 198.46.146.118
+  port: 36720
+  type: hysteria2
+  password: 4fUg3KH31LpMhko6o0Ka9Q
+  auth: 4fUg3KH31LpMhko6o0Ka9Q
+  sni: bing.com
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸 US-13 trojan 166ms
+  server: 66.23.203.21
+  port: 59689
+  type: trojan
+  password: ae7eb4dwyaz25pxwgq59
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸 US-14 ss 169ms
+  server: 193.151.160.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 US-15 ss 169ms
+  server: 95.215.201.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 US-16 ss 174ms
+  server: 193.151.160.9
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇨🇦 CA-43 vless 182ms
+  server: 66.70.179.198
+  port: 2053
+  type: vless
+  uuid: dc620cd6-a9d8-4a0f-8f18-006b895db77e
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU
+    short-id: 83f8317a948bb769
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇨🇦 CA-44 ss 196ms
+  server: 149.22.95.183
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇨🇦 CA-45 ss 201ms
+  server: 51.222.136.236
+  port: 8882
+  type: ss
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+  udp: true
+- name: 🇺🇸 US-17 trojan 220ms
+  server: blog.findlocaljobnetworkandbuildcommunityconnections.com
+  port: 443
+  type: trojan
+  password: dba20dcb635e430fa4d3bfc303a149d2
+  sni: blog.findlocaljobnetworkandbuildcommunityconnections.com
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸 US-18 trojan 231ms
+  server: resources.findlocaljobnetworkandbuildcommunityconnections.com
+  port: 443
+  type: trojan
+  password: f0eb8c92ce8946aaba856569cff1a16b
+  sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸 US-19 vless 264ms
+  server: tk1.high-speed-test-56424.me
+  port: 443
+  type: vless
+  uuid: 37615d66-5467-44a3-bc23-f2c3bef7f761
+  tls: true
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  reality-opts:
+    public-key: p8VhFzvFOBAhWAEAeWmwDxT3xBSRsGYixqi0qnLFnBM
+    short-id: 21270a66
+  servername: aws.amazon.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇺🇸 US-20 ss 272ms
+  server: 173.244.56.9
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 US-21 hysteria2 276ms
+  server: 163.192.14.135
+  port: 50160
+  type: hysteria2
+  password: 099830134df5ac3a04a4b21d39b8c395
+  auth: 099830134df5ac3a04a4b21d39b8c395
+  sni: vk.com
+  skip-cert-verify: true
+  udp: true
+- name: 🇬🇧 GB-01 ss 340ms
+  server: 149.102.132.184
+  port: 443
+  type: ss
+  cipher: aes-256-gcm
+  password: g5h5jleTRSyO3Rk4
+  udp: true
+- name: 🇳🇱 NL-02 ss 361ms
+  server: 82.38.31.34
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 NL-03 ss 362ms
+  server: 82.38.31.216
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 NL-04 ss 362ms
+  server: 82.38.31.49
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 NL-05 ss 366ms
+  server: 82.38.31.174
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 NL-06 ss 367ms
+  server: 82.38.31.192
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 NL-07 ss 367ms
+  server: 82.38.31.3
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 NL-08 ss 368ms
+  server: 82.38.31.82
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 NL-09 ss 369ms
+  server: 178.83.185.156
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 NL-10 ss 369ms
+  server: 82.38.31.155
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 NL-11 ss 371ms
+  server: 82.38.31.159
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 NL-12 ss 371ms
+  server: 193.29.139.179
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇬🇧 GB-02 ss 372ms
+  server: 141.98.101.181
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇳🇱 NL-13 ss 372ms
+  server: 82.38.31.62
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 NL-14 ss 372ms
+  server: 82.38.31.54
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 NL-15 ss 373ms
+  server: 82.38.31.35
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 NL-16 ss 374ms
+  server: 82.38.31.181
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 NL-17 ss 376ms
+  server: 82.38.31.193
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 NL-18 ss 376ms
+  server: 82.38.31.10
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 NL-19 ss 377ms
+  server: 82.38.31.18
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 NL-20 ss 377ms
+  server: 193.29.139.235
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 NL-21 ss 377ms
+  server: 82.38.31.205
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 NL-22 ss 378ms
+  server: 82.38.31.162
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 NL-23 ss 380ms
+  server: 193.29.139.168
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  udp: true
+- name: 🇳🇱 NL-24 ss 380ms
+  server: 82.38.31.215
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 NL-25 ss 380ms
+  server: 82.38.31.165
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 NL-26 ss 382ms
+  server: 82.38.31.217
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 NL-27 ss 384ms
+  server: 82.38.31.46
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 NL-28 ss 388ms
+  server: 82.38.31.194
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 NL-29 ss 393ms
+  server: 82.38.31.183
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇩🇪 DE-02 hysteria2 394ms
+  server: 179.61.138.145
+  port: 36264
+  type: hysteria2
+  password: Telegram-vpnjey
+  auth: Telegram-vpnjey
+  sni: de2.jey.cc.cd
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: Telegram@vpnjey
+  udp: true
+- name: 🇳🇱 NL-30 ss 399ms
+  server: 82.38.31.219
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇨🇭 CH-01 ss 400ms
+  server: 132.243.175.144
+  port: 8388
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
+  udp: true
+- name: 🇯🇵 JP-01 ss 412ms
+  server: 149.22.87.241
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇮🇹 IT-02 ss 412ms
+  server: 57.131.48.45
+  port: 8388
+  type: ss
+  cipher: aes-256-gcm
+  password: itzvpn@321
+  udp: true
+- name: 🇺🇸 US-22 vless 414ms
+  server: 38.145.220.58
+  port: 2093
+  type: vless
+  uuid: 0b418782-e023-447e-ba99-e66b84ff118d
+  tls: true
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  reality-opts:
+    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
+    short-id: 8a9725533854a7e8
+  servername: www.apple.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇳🇱 NL-31 ss 416ms
+  server: 82.38.31.203
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 NL-32 ss 422ms
+  server: 109.201.152.181
+  port: 443
+  type: ss
+  cipher: aes-128-cfb
+  password: shadowsocks
+  udp: true
+- name: 🇬🇧 GB-03 ss 422ms
+  server: 82.110.60.9
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇳🇱 NL-33 ss 426ms
+  server: 82.38.31.176
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇯🇵 JP-02 ss 432ms
+  server: 191.223.221.53
+  port: 8388
+  type: ss
+  cipher: aes-256-gcm
+  password: JuD6MNgtX3nVpCzFzXYVYjDTZ7nsmaTv
+  udp: true
+- name: 🇮🇹 IT-03 ss 442ms
+  server: 185.164.175.81
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇬🇧 GB-04 vless 450ms
+  server: 51.89.194.151
+  port: 2053
+  type: vless
+  uuid: 8e790f25-1d71-4601-9fb0-d503931dcfca
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: xPEBx4wUmwAAv4ikUALNBf5wH6TRhyeQ0Q2pcNELsV0
+    short-id: d051f678212f9d54
+  servername: www.apple.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇺🇸 US-23 ss 450ms
+  server: 15.204.233.41
+  port: 8882
+  type: ss
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+  udp: true
+- name: 🇨🇿 CZ-01 ss 479ms
+  server: 67.159.18.34
+  port: 17001
+  type: ss
+  cipher: aes-256-gcm
+  password: I6o9NnialYLMEjVt28RF4dpjmr9wMvNL
+  udp: true
+- name: 🇳🇱 NL-34 vless 491ms
+  server: 147.45.61.213
+  port: 443
+  type: vless
+  uuid: ee18d188-14cc-417e-beb1-70e4add6d023
+  tls: true
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  reality-opts:
+    public-key: fiH8cNK7JlHGz6hHHjmsspRdnjpemaq1Q_xmP8a5FHo
+    short-id: a47d71c75bb8be07
+  servername: nl4.nztvpn.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇨🇭 CH-02 hysteria2 492ms
+  server: 208.69.78.217
+  port: 33025
+  type: hysteria2
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  auth: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+  udp: true
+- name: 🇯🇵 JP-03 ss 514ms
+  server: 84.247.155.196
+  port: 443
+  type: ss
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+  udp: true
+- name: 🇳🇱 NL-35 ss 516ms
+  server: 82.38.31.184
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 NL-36 vless 517ms
+  server: sw.golangwikito.cfd
+  port: 443
+  type: vless
+  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
+  tls: true
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  reality-opts:
+    public-key: Kb8SsVPprs46BJSUNp5JvWLI-TFEiHmlBOXLQd37Glg
+    short-id: a1037b25dcef6aa7
+  servername: sw.golangwikito.cfd
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇦🇪 AE-01 vless 523ms
+  server: 185.253.116.33
+  port: 14430
+  type: vless
+  uuid: aee7ae19-672f-49d8-8a92-aa7cdfc89f89
+  tls: false
+  skip-cert-verify: true
+  servername: 185.253.116.33
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 185.253.116.33
+  udp: true
+- name: 🇺🇸 US-24 ss 526ms
+  server: 103.11.76.248
+  port: 28679
+  type: ss
+  cipher: 2022-blake3-aes-128-gcm
+  password: NzJlOTQ5NWYtM2ZkYi00Cg==
+  udp: true
+- name: 🇳🇱 NL-37 ss 530ms
+  server: 82.38.31.208
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇩🇪 DE-03 trojan 542ms
+  server: it1.dedushka.top
+  port: 443
+  type: trojan
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  sni: it1.dedushka.top
+  skip-cert-verify: true
+  udp: true
+- name: 🇩🇪 DE-04 vless 560ms
+  server: 31.70.111.146
+  port: 443
+  type: vless
+  uuid: 84ed0e09-6803-4ef9-a977-74b657d971e5
+  tls: true
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  reality-opts:
+    public-key: ZNmuzIn-zyJi2C0sWRpL9fsMYCgYauXpJElXTqY_LEE
+    short-id: d7de3a6ff4018957
+  servername: www.apple.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇵🇱 PL-01 trojan 576ms
+  server: pl2.dedushka.top
+  port: 443
+  type: trojan
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  sni: pl2.dedushka.top
+  skip-cert-verify: true
+  udp: true
+- name: 🇰🇷 KR-01 ss 592ms
+  server: 211.178.105.134
+  port: 6123
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+  udp: true
+- name: 🇸🇬 SG-01 vmess 605ms
+  server: 149.88.23.207
+  port: 18000
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG-02 vmess 608ms
+  server: 149.88.23.202
+  port: 18000
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 🇱🇻 LV-01 trojan 613ms
+  server: lv1.dedushka.top
+  port: 443
+  type: trojan
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  sni: lv1.dedushka.top
+  skip-cert-verify: true
+  udp: true
+- name: 🇩🇪 DE-05 vless 618ms
+  server: connect.wecantos.site
+  port: 10000
+  type: vless
+  uuid: a05ecf37-c661-4247-ab09-4432cf0f3cc1
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  udp: true
+- name: 🇳🇱 NL-38 vless 630ms
+  server: netherlands02.azotvpn.xyz
+  port: 443
+  type: vless
+  uuid: a500be68-4ff6-433b-9968-472be69fab14
+  tls: true
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  reality-opts:
+    public-key: ui9MLRYZIz7S6_1E4fZgoamwTypfQAMwJ1olxGcWomE
+    short-id: fc70174007a393b4
+  servername: netherlands02.azotvpn.xyz
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇹🇼 TW-01 anytls 636ms
+  server: er8u54dh.df6h451rh.xin
+  port: 443
+  type: anytls
+  password: 0324fbc29561
+  udp: true
+  sni: px.ads.linkedin.com
+  skip-cert-verify: true
+- name: 🇳🇱 NL-39 ss 642ms
+  server: 193.29.139.151
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 NL-40 ss 642ms
+  server: 82.38.31.211
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 NL-41 ss 667ms
+  server: 82.38.31.190
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇵🇱 PL-02 trojan 684ms
+  server: pl1.dedushka.top
+  port: 443
+  type: trojan
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  sni: pl1.dedushka.top
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 SG-03 ss 696ms
+  server: 68.183.227.4
+  port: 8080
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  udp: true
+- name: 🇺🇸 US-25 ss 700ms
+  server: 15.204.247.244
+  port: 4444
+  type: ss
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+  udp: true
+- name: 🇰🇷 KR-02 ss 714ms
+  server: p141.panda001.net
+  port: 4652
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+  udp: true
+- name: 🇨🇦 CA-46 vmess 716ms
+  server: 134.195.196.211
+  port: 18000
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 🇭🇰 HK-02 vless 727ms
+  server: 165.154.63.139
+  port: 443
+  type: vless
+  uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
+  tls: true
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  reality-opts:
+    public-key: AE81BrwMc8-kwGEIA1LhzaL03er0Qwt2V-fFy76F5jQ
+    short-id: ca4aedd4
+  servername: www.amazon.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇳🇱 NL-42 ss 732ms
+  server: 193.29.139.197
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇯🇵 JP-04 trojan 740ms
+  server: 185.220.238.77
+  port: 11543
+  type: trojan
+  password: HutaoCloud
+  sni: 185.220.238.77
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /api
+    headers:
+      Host: 185.220.238.77
+  udp: true
+- name: 🇹🇷 TR-01 vless 748ms
+  server: 78.135.73.47
+  port: 443
+  type: vless
+  uuid: 25e16692-d097-4e69-9e2d-8415609c1968
+  tls: true
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  reality-opts:
+    public-key: sZAJkAu23wp1WKY-qeaeiwR38izP5OyfhumoE9xhbB8
+    short-id: f46cd3ea3d1eb72d
+  servername: www.datadoghq.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇮🇳 IN-01 ss 748ms
+  server: 172.105.39.124
+  port: 7002
+  type: ss
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+  udp: true
+- name: 🇳🇱 NL-43 ss 757ms
+  server: 82.38.31.199
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇸🇪 SE-01 vless 766ms
+  server: 193.188.21.253
+  port: 14430
+  type: vless
+  uuid: 57f7772d-f5d6-4d8f-992d-5fa5e0d6da55
+  tls: false
+  skip-cert-verify: true
+  servername: 193.188.21.253
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 193.188.21.253
+  udp: true
+- name: 🇦🇹 AT-01 trojan 784ms
+  server: 212.183.88.136
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+  udp: true
+- name: 🇸🇬 SG-04 trojan 794ms
+  server: 139.180.146.200
+  port: 8886
+  type: trojan
+  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
+  sni: 139.180.146.200
+  skip-cert-verify: true
+  udp: true
+- name: 🇳🇱 NL-44 ss 805ms
+  server: 193.29.139.225
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇿🇦 ZA-01 ss 818ms
+  server: 102.37.156.224
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: aduB9HGxQHjA2SBMRjkHX6
+  udp: true
+- name: 🇳🇱 NL-45 ss 821ms
+  server: 82.38.31.207
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇩🇪 DE-06 trojan 832ms
+  server: 161.35.192.122
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.pleadcourt.org
+  alpn:
+  - http/1.1
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+  udp: true
+- name: 🇩🇪 DE-07 trojan 842ms
+  server: 185.255.179.166
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+  udp: true
+- name: 🇯🇵 JP-05 hysteria2 863ms
+  server: jp1.frnhk.xyz
+  port: 9443
+  type: hysteria2
+  password: f5f0babe-aea2-4f07-a1fc-3c9820253f49
+  auth: f5f0babe-aea2-4f07-a1fc-3c9820253f49
+  sni: jp1.frnhk.xyz
+  skip-cert-verify: true
+  udp: true
+- name: 🇩🇪 DE-08 ss 873ms
+  server: 57.129.113.16
+  port: 8388
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: NcAXc0UZI6yQJE1p8QmOv8
+  udp: true
+- name: 🇹🇷 TR-02 vless 877ms
+  server: sable56.fars-remen.ir
+  port: 8446
+  type: vless
+  uuid: 633c1bb0-60d5-41fb-a9c4-11f408b264ec
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 7OwcalQiQ5RaMsYRjvtwTxZWS3sCpjOefcr3WYKFh04
+    short-id: 73da8baa63f8d537
+  servername: storage-p2.googleapis.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇲🇪 ME-01 trojan 877ms
+  server: 31.57.190.71
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.pleadcourt.org
+  alpn:
+  - http/1.1
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+  udp: true
+- name: 🇮🇳 IN-02 vless 884ms
+  server: 13.140.56.100
+  port: 14430
+  type: vless
+  uuid: 68512eac-cd53-4de3-8d1e-08f6e04af1a9
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 13.140.56.100
+  udp: true
+- name: 🇮🇳 IN-03 vless 890ms
+  server: 5.253.29.254
+  port: 14430
+  type: vless
+  uuid: c7c27192-60a5-4ce1-b613-95270d82309d
+  tls: false
+  skip-cert-verify: true
+  servername: 5.253.29.254
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 5.253.29.254
+  udp: true
+- name: 🇨🇦 CA-47 ss 895ms
+  server: 51.222.200.165
+  port: 5000
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  udp: true
+- name: 🇰🇷 KR-03 vmess 911ms
+  server: 146.56.112.110
+  port: 8888
+  type: vmess
+  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 🇳🇱 NL-46 vless 932ms
+  server: 213.152.165.203
+  port: 2093
+  type: vless
+  uuid: 0b418782-e023-447e-ba99-e66b84ff118d
+  tls: true
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  reality-opts:
+    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
+    short-id: 8a9725533854a7e8
+  servername: www.apple.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇰🇷 KR-04 anytls 934ms
+  server: svip.skycon808.com
+  port: 24318
+  type: anytls
+  password: 87c6ad7b-e450-44a8-8088-bc2234d43de1
+  udp: true
+  sni: hk08.jdddyy01.cc
+  skip-cert-verify: true
+- name: 🇹🇼 TW-02 anytls 946ms
+  server: 684616s4.df6h451rh.xin
+  port: 443
+  type: anytls
+  password: 0324fbc29561
+  udp: true
+  sni: px.ads.linkedin.com
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+- name: 🇦🇪 AE-02 vless 963ms
+  server: 95.174.68.188
+  port: 14430
+  type: vless
+  uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
+  tls: false
+  skip-cert-verify: true
+  servername: 95.174.68.188
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 95.174.68.188
+  udp: true
+- name: 🇭🇰 HK-03 ssr 965ms
+  server: api.meituan88.com
+  port: 39266
+  type: ssr
+  cipher: rc4-md5
+  password: di15PV
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 23929:563537032
+  obfs-param: f7d23929.douyin.com
+  udp: true
+- name: 🇬🇧 GB-05 ss 1022ms
+  server: 94.156.250.148
+  port: 7001
+  type: ss
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+  udp: true
+- name: 🇭🇰 HK-04 ssr 1034ms
+  server: api.meituan88.com
+  port: 44983
+  type: ssr
+  cipher: chacha20-ietf
+  password: di15PV
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 218522:0hfCJk
+  obfs-param: 6f5218522.douyin.com
+  udp: true
+- name: 🇳🇱 NL-47 ss 1036ms
+  server: 82.38.31.213
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇺🇸 US-26 vmess 1036ms
+  server: 67.220.85.46
+  port: 18000
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 🇹🇼 TW-03 vmess 1044ms
+  server: 165.154.195.38
+  port: 35034
+  type: vmess
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 🇳🇱 NL-48 vless 1044ms
+  server: 177.3.208.65
+  port: 443
+  type: vless
+  uuid: 4f34bc04-479c-49ba-91a8-6bb9ed15031c
+  tls: true
+  skip-cert-verify: true
+  servername: tgmansion.site
+  network: ws
+  ws-opts:
+    path: /vless-tr
+    headers:
+      Host: tgmansion.site
+  udp: true
+- name: 🇭🇰 HK-05 ssr 1047ms
+  server: api.meituan88.com
+  port: 27726
+  type: ssr
+  cipher: rc4-md5
+  password: di15PV
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 23929:563537032
+  obfs-param: f7d23929.douyin.com
+  udp: true
+- name: 🇭🇰 HK-06 vmess 1049ms
+  server: dog-us.kunlun01dns.com
+  port: 21009
+  type: vmess
+  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 🇩🇪 DE-09 vless 1054ms
+  server: milo.rubinaz.xyz
+  port: 8080
+  type: vless
+  uuid: 6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  udp: true
+- name: 🇯🇵 JP-06 trojan 1061ms
+  server: 45.32.52.173
+  port: 8886
+  type: trojan
+  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
+  sni: 45.32.52.173
+  skip-cert-verify: true
+  udp: true
+- name: 🇹🇭 TH-01 ss 1069ms
+  server: pphfree2.mvpnpvpn.de5.net
+  port: 52351
+  type: ss
+  cipher: aes-256-gcm
+  password: sxajCTwrlK0zl+zmHpX0p0jXIfatnzlLzWlSQ950L1c=
+  udp: true
+- name: 🇬🇧 GB-06 vless 1138ms
+  server: gb.srv.dvzh.net
+  port: 443
+  type: vless
+  uuid: 9ab3a362-1518-496d-b08d-eced45cec936
+  tls: true
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 9GEc6lOjnGQyyE1951OZSBMWt4uCXsOjKyj9fysxHH0
+    short-id: d30f9d846a7c8cba
+  servername: gb.srv.dvzh.net
+  client-fingerprint: firefox
+  network: tcp
+  udp: true
+- name: 🇬🇧 GB-07 vless 1156ms
+  server: edge10.cyrionflare.com
+  port: 2052
+  type: vless
+  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  udp: true
+- name: 🇯🇵 JP-07 ss 1158ms
+  server: 84.247.155.196
+  port: 80
+  type: ss
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+  udp: true
+- name: 🇭🇰 HK-07 hysteria2 1166ms
+  server: nas.aizhzo.com
+  port: 5010
+  type: hysteria2
+  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
+  auth: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
+  sni: nas.aizhzo.com
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
+  udp: true
+- name: 🇭🇰 HK-08 anytls 1170ms
+  server: 654968169.df6h451rh.xin
+  port: 443
+  type: anytls
+  password: 0324fbc29561
+  udp: true
+  sni: images.ctfassets.net
+  skip-cert-verify: true
+  alpn:
+  - http/1.1
+- name: 🇳🇱 NL-49 vless 1191ms
+  server: 50.7.44.28
+  port: 2091
+  type: vless
+  uuid: 76b6a658-ce80-4500-b24d-404c94639ac6
+  tls: true
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: 08a4b1f473932632
+  servername: www.apple.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇩🇪 DE-10 vless 1202ms
+  server: free.sahanwickramasinghe.me
+  port: 80
+  type: vless
+  uuid: fcdb24e3-5e66-4c45-b89e-ac9441f4dcda
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: free.sahanwickramasinghe.me
+  udp: true
+- name: 🇨🇳 CN-01 vmess 1309ms
+  server: 112.132.215.108
+  port: 50002
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸 US-27 vless 1338ms
+  server: 2.24.124.64
+  port: 443
+  type: vless
+  uuid: 719b9354-45e2-4718-8709-d965b64554db
+  tls: true
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  reality-opts:
+    public-key: zpXR6Y36C8qUCIVk2p_j8C9KGeBk5xisLw66j3WFOls
+    short-id: 9f1fc5a631ef3126
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇭🇰 HK-09 ssr 1380ms
+  server: api.meituan88.com
+  port: 18534
+  type: ssr
+  cipher: chacha20-ietf
+  password: di15PV
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 23929:563537032
+  obfs-param: f7d23929.douyin.com
+  udp: true
+- name: 🇨🇦 CA-48 trojan 1392ms
+  server: x.com
+  port: 2096
+  type: trojan
+  password: aa308698-d9a4-43ff-a563-14636919c971
+  sni: au4.yang-1989.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /qpf7
+    headers:
+      Host: au4.yang-1989.xyz
+  udp: true
+- name: 🇳🇱 NL-50 ss 1394ms
+  server: 82.38.31.212
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇭🇰 HK-10 ssr 1426ms
+  server: api.meituan88.com
+  port: 29790
+  type: ssr
+  cipher: chacha20-ietf
+  password: di15PV
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 23929:563537032
+  obfs-param: f7d23929.douyin.com
+  udp: true
+- name: 🇺🇸 US-28 vless 1438ms
+  server: 66.225.252.7
+  port: 8443
+  type: vless
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  tls: true
+  skip-cert-verify: true
+  servername: speed.dulacloud.store
+  network: ws
+  ws-opts:
+    path: /dula?Telegram-WangCai2fp=chrome
+    headers:
+      Host: speed.dulacloud.store
+  udp: true
+- name: 🇨🇦 CA-49 vless 1490ms
+  server: 104.17.74.206
+  port: 8443
+  type: vless
+  uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
+  tls: true
+  skip-cert-verify: true
+  servername: free.sahanwickramasinghe.me
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: free.sahanwickramasinghe.me
+  udp: true
+- name: 🇲🇪 ME-02 trojan 1501ms
+  server: 31.57.190.34
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.pleadcourt.org
+  alpn:
+  - http/1.1
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+  udp: true
+- name: 🇨🇦 CA-50 vless 1505ms
+  server: 104.17.70.206
+  port: 8443
+  type: vless
+  uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
+  tls: true
+  skip-cert-verify: true
+  servername: free.sahanwickramasinghe.me
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: free.sahanwickramasinghe.me
+  udp: true
+proxy-groups:
+- name: 🚀 节点选择
+  type: select
+  proxies:
+  - 🇨🇳 大陆直连可用
+  - ♻️ 自动选择
+  - 🔯 故障转移
+  - DIRECT
+  - 🇨🇦 CA-01 vless ⚡优选 246ms ✅CN 🔴联通
+  - 🇨🇦 CA-02 vless 250ms ✅CN 🔴联通
+  - 🇨🇦 CA-03 vless 256ms ✅CN 🔴联通
+  - 🇨🇦 CA-04 vless ⚡优选 270ms ✅CN 🔴联通
+  - 🇺🇸 US-01 vless 278ms ✅CN 🔴联通
+  - 🇨🇦 CA-05 vless ⚡优选 298ms ✅CN 🔴联通
+  - 🇨🇦 CA-06 vless ⚡优选 302ms ✅CN 🔴联通
+  - 🇨🇦 CA-07 vless 304ms ✅CN 🔴联通
+  - 🇨🇦 CA-08 vless ⚡优选 310ms ✅CN 🔴联通
+  - 🇨🇦 CA-09 vless 314ms ✅CN 🔴联通
+  - 🇮🇪 IE-01 ss 322ms ✅CN
+  - 🇨🇦 CA-10 vless 341ms ✅CN 🔴联通
+  - 🇨🇦 CA-11 vless ⚡优选 354ms ✅CN 🔴联通
+  - 🇨🇦 CA-12 vless ⚡优选 368ms ✅CN 🔴联通
+  - 🇨🇦 CA-13 vless ⚡优选 394ms ✅CN 🔴联通
+  - 🇨🇦 CA-14 vmess 406ms ✅CN 🔴联通
+  - 🇨🇦 CA-15 vless ⚡优选 410ms ✅CN 🔴联通
+  - 🇮🇹 IT-01 ss 452ms ✅CN 🔴联通
+  - 🇨🇦 CA-16 vless ⚡优选 456ms ✅CN 🔴联通
+  - 🇨🇦 CA-17 vmess ⚡优选 458ms ✅CN 🔴联通
+  - 🇳🇱 NL-01 ssr 462ms ✅CN 🔴联通
+  - 🇨🇦 CA-18 trojan 486ms ✅CN 🔴联通
+  - 🇫🇷 FR-01 vless 489ms ✅CN 🔴联通
+  - 🇩🇪 DE-01 vless 517ms ✅CN 🔴联通
+  - 🇫🇷 FR-02 vless 525ms ✅CN 🔴联通
+  - 🇭🇰 HK-01 vmess 545ms ✅CN 🔴联通
+  - 🇨🇦 CA-19 vless 588ms ✅CN 🔴联通
+  - 🇨🇦 CA-20 trojan 622ms ✅CN 🔴联通
+  - 🇨🇦 CA-21 trojan ⚡优选 645ms ✅CN 🔴联通
+  - 🇨🇦 CA-22 trojan ⚡优选 650ms ✅CN 🔴联通
+  - 🇨🇦 CA-23 trojan ⚡优选 651ms ✅CN 🔴联通
+  - 🇨🇦 CA-24 trojan ⚡优选 658ms ✅CN 🔴联通
+  - 🇨🇦 CA-25 trojan 684ms ✅CN 🔴联通
+  - 🇨🇦 CA-26 trojan ⚡优选 684ms ✅CN 🔴联通
+  - 🇪🇸 ES-01 trojan 763ms ✅CN
+  - 🇨🇦 CA-27 trojan ⚡优选 809ms ✅CN 🔴联通
+  - 🇨🇦 CA-28 trojan ⚡优选 1041ms ✅CN 🔴联通
+  - 🇨🇦 CA-29 vless ⚡优选 1152ms ✅CN 🔴联通
+  - 🇨🇦 CA-30 trojan ⚡优选 1354ms ✅CN 🔴联通
+  - 🇨🇦 CA-31 trojan ⚡优选 1368ms ✅CN 🔴联通
+  - 🇨🇦 CA-32 trojan ⚡优选 1370ms ✅CN 🔴联通
+  - 🇨🇦 CA-33 trojan ⚡优选 1394ms ✅CN 🔴联通
+  - 🇨🇦 CA-34 trojan ⚡优选 1416ms ✅CN 🔴联通
+  - 🇨🇦 CA-35 trojan ⚡优选 1420ms ✅CN 🔴联通
+  - 🇨🇦 CA-36 vless ⚡优选 1440ms ✅CN 🔴联通
+  - 🇨🇦 CA-37 trojan ⚡优选 1447ms ✅CN 🔴联通
+  - 🇨🇦 CA-38 trojan ⚡优选 1458ms ✅CN 🔴联通
+  - 🇨🇦 CA-39 trojan ⚡优选 1502ms ✅CN 🔴联通
+  - 🇨🇦 CA-40 trojan ⚡优选 1514ms ✅CN 🔴联通
+  - 🇨🇦 CA-41 trojan ⚡优选 1515ms ✅CN 🔴联通
+  - 🇺🇸 US-02 ss 68ms
+  - 🇺🇸 US-03 ss 103ms
+  - 🇺🇸 US-04 ss 106ms
+  - 🇨🇦 CA-42 ss 108ms
+  - 🇺🇸 US-05 vmess 108ms
+  - 🇺🇸 US-06 ss 109ms
+  - 🇺🇸 US-07 ss 118ms
+  - 🇺🇸 US-08 ss 144ms
+  - 🇺🇸 US-09 vless 146ms
+  - 🇺🇸 US-10 ss 148ms
+  - 🇺🇸 US-11 hysteria2 162ms
+  - 🇺🇸 US-12 hysteria2 164ms
+  - 🇺🇸 US-13 trojan 166ms
+  - 🇺🇸 US-14 ss 169ms
+  - 🇺🇸 US-15 ss 169ms
+  - 🇺🇸 US-16 ss 174ms
+  - 🇨🇦 CA-43 vless 182ms
+  - 🇨🇦 CA-44 ss 196ms
+  - 🇨🇦 CA-45 ss 201ms
+  - 🇺🇸 US-17 trojan 220ms
+  - 🇺🇸 US-18 trojan 231ms
+  - 🇺🇸 US-19 vless 264ms
+  - 🇺🇸 US-20 ss 272ms
+  - 🇺🇸 US-21 hysteria2 276ms
+  - 🇬🇧 GB-01 ss 340ms
+  - 🇳🇱 NL-02 ss 361ms
+  - 🇳🇱 NL-03 ss 362ms
+  - 🇳🇱 NL-04 ss 362ms
+  - 🇳🇱 NL-05 ss 366ms
+  - 🇳🇱 NL-06 ss 367ms
+  - 🇳🇱 NL-07 ss 367ms
+  - 🇳🇱 NL-08 ss 368ms
+  - 🇳🇱 NL-09 ss 369ms
+  - 🇳🇱 NL-10 ss 369ms
+  - 🇳🇱 NL-11 ss 371ms
+  - 🇳🇱 NL-12 ss 371ms
+  - 🇬🇧 GB-02 ss 372ms
+  - 🇳🇱 NL-13 ss 372ms
+  - 🇳🇱 NL-14 ss 372ms
+  - 🇳🇱 NL-15 ss 373ms
+  - 🇳🇱 NL-16 ss 374ms
+  - 🇳🇱 NL-17 ss 376ms
+  - 🇳🇱 NL-18 ss 376ms
+  - 🇳🇱 NL-19 ss 377ms
+  - 🇳🇱 NL-20 ss 377ms
+  - 🇳🇱 NL-21 ss 377ms
+  - 🇳🇱 NL-22 ss 378ms
+  - 🇳🇱 NL-23 ss 380ms
+  - 🇳🇱 NL-24 ss 380ms
+  - 🇳🇱 NL-25 ss 380ms
+  - 🇳🇱 NL-26 ss 382ms
+  - 🇳🇱 NL-27 ss 384ms
+  - 🇳🇱 NL-28 ss 388ms
+  - 🇳🇱 NL-29 ss 393ms
+  - 🇩🇪 DE-02 hysteria2 394ms
+  - 🇳🇱 NL-30 ss 399ms
+  - 🇨🇭 CH-01 ss 400ms
+  - 🇯🇵 JP-01 ss 412ms
+  - 🇮🇹 IT-02 ss 412ms
+  - 🇺🇸 US-22 vless 414ms
+  - 🇳🇱 NL-31 ss 416ms
+  - 🇳🇱 NL-32 ss 422ms
+  - 🇬🇧 GB-03 ss 422ms
+  - 🇳🇱 NL-33 ss 426ms
+  - 🇯🇵 JP-02 ss 432ms
+  - 🇮🇹 IT-03 ss 442ms
+  - 🇬🇧 GB-04 vless 450ms
+  - 🇺🇸 US-23 ss 450ms
+  - 🇨🇿 CZ-01 ss 479ms
+  - 🇳🇱 NL-34 vless 491ms
+  - 🇨🇭 CH-02 hysteria2 492ms
+  - 🇯🇵 JP-03 ss 514ms
+  - 🇳🇱 NL-35 ss 516ms
+  - 🇳🇱 NL-36 vless 517ms
+  - 🇦🇪 AE-01 vless 523ms
+  - 🇺🇸 US-24 ss 526ms
+  - 🇳🇱 NL-37 ss 530ms
+  - 🇩🇪 DE-03 trojan 542ms
+  - 🇩🇪 DE-04 vless 560ms
+  - 🇵🇱 PL-01 trojan 576ms
+  - 🇰🇷 KR-01 ss 592ms
+  - 🇸🇬 SG-01 vmess 605ms
+  - 🇸🇬 SG-02 vmess 608ms
+  - 🇱🇻 LV-01 trojan 613ms
+  - 🇩🇪 DE-05 vless 618ms
+  - 🇳🇱 NL-38 vless 630ms
+  - 🇹🇼 TW-01 anytls 636ms
+  - 🇳🇱 NL-39 ss 642ms
+  - 🇳🇱 NL-40 ss 642ms
+  - 🇳🇱 NL-41 ss 667ms
+  - 🇵🇱 PL-02 trojan 684ms
+  - 🇸🇬 SG-03 ss 696ms
+  - 🇺🇸 US-25 ss 700ms
+  - 🇰🇷 KR-02 ss 714ms
+  - 🇨🇦 CA-46 vmess 716ms
+  - 🇭🇰 HK-02 vless 727ms
+  - 🇳🇱 NL-42 ss 732ms
+  - 🇯🇵 JP-04 trojan 740ms
+  - 🇹🇷 TR-01 vless 748ms
+  - 🇮🇳 IN-01 ss 748ms
+  - 🇳🇱 NL-43 ss 757ms
+  - 🇸🇪 SE-01 vless 766ms
+  - 🇦🇹 AT-01 trojan 784ms
+  - 🇸🇬 SG-04 trojan 794ms
+  - 🇳🇱 NL-44 ss 805ms
+  - 🇿🇦 ZA-01 ss 818ms
+  - 🇳🇱 NL-45 ss 821ms
+  - 🇩🇪 DE-06 trojan 832ms
+  - 🇩🇪 DE-07 trojan 842ms
+  - 🇯🇵 JP-05 hysteria2 863ms
+  - 🇩🇪 DE-08 ss 873ms
+  - 🇹🇷 TR-02 vless 877ms
+  - 🇲🇪 ME-01 trojan 877ms
+  - 🇮🇳 IN-02 vless 884ms
+  - 🇮🇳 IN-03 vless 890ms
+  - 🇨🇦 CA-47 ss 895ms
+  - 🇰🇷 KR-03 vmess 911ms
+  - 🇳🇱 NL-46 vless 932ms
+  - 🇰🇷 KR-04 anytls 934ms
+  - 🇹🇼 TW-02 anytls 946ms
+  - 🇦🇪 AE-02 vless 963ms
+  - 🇭🇰 HK-03 ssr 965ms
+  - 🇬🇧 GB-05 ss 1022ms
+  - 🇭🇰 HK-04 ssr 1034ms
+  - 🇳🇱 NL-47 ss 1036ms
+  - 🇺🇸 US-26 vmess 1036ms
+  - 🇹🇼 TW-03 vmess 1044ms
+  - 🇳🇱 NL-48 vless 1044ms
+  - 🇭🇰 HK-05 ssr 1047ms
+  - 🇭🇰 HK-06 vmess 1049ms
+  - 🇩🇪 DE-09 vless 1054ms
+  - 🇯🇵 JP-06 trojan 1061ms
+  - 🇹🇭 TH-01 ss 1069ms
+  - 🇬🇧 GB-06 vless 1138ms
+  - 🇬🇧 GB-07 vless 1156ms
+  - 🇯🇵 JP-07 ss 1158ms
+  - 🇭🇰 HK-07 hysteria2 1166ms
+  - 🇭🇰 HK-08 anytls 1170ms
+  - 🇳🇱 NL-49 vless 1191ms
+  - 🇩🇪 DE-10 vless 1202ms
+  - 🇨🇳 CN-01 vmess 1309ms
+  - 🇺🇸 US-27 vless 1338ms
+  - 🇭🇰 HK-09 ssr 1380ms
+  - 🇨🇦 CA-48 trojan 1392ms
+  - 🇳🇱 NL-50 ss 1394ms
+  - 🇭🇰 HK-10 ssr 1426ms
+  - 🇺🇸 US-28 vless 1438ms
+  - 🇨🇦 CA-49 vless 1490ms
+  - 🇲🇪 ME-02 trojan 1501ms
+  - 🇨🇦 CA-50 vless 1505ms
+- name: 🇨🇳 大陆直连可用
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: true
+  proxies:
+  - 🇨🇦 CA-01 vless ⚡优选 246ms ✅CN 🔴联通
+  - 🇨🇦 CA-02 vless 250ms ✅CN 🔴联通
+  - 🇨🇦 CA-03 vless 256ms ✅CN 🔴联通
+  - 🇨🇦 CA-04 vless ⚡优选 270ms ✅CN 🔴联通
+  - 🇺🇸 US-01 vless 278ms ✅CN 🔴联通
+  - 🇨🇦 CA-05 vless ⚡优选 298ms ✅CN 🔴联通
+  - 🇨🇦 CA-06 vless ⚡优选 302ms ✅CN 🔴联通
+  - 🇨🇦 CA-07 vless 304ms ✅CN 🔴联通
+  - 🇨🇦 CA-08 vless ⚡优选 310ms ✅CN 🔴联通
+  - 🇨🇦 CA-09 vless 314ms ✅CN 🔴联通
+  - 🇮🇪 IE-01 ss 322ms ✅CN
+  - 🇨🇦 CA-10 vless 341ms ✅CN 🔴联通
+  - 🇨🇦 CA-11 vless ⚡优选 354ms ✅CN 🔴联通
+  - 🇨🇦 CA-12 vless ⚡优选 368ms ✅CN 🔴联通
+  - 🇨🇦 CA-13 vless ⚡优选 394ms ✅CN 🔴联通
+  - 🇨🇦 CA-14 vmess 406ms ✅CN 🔴联通
+  - 🇨🇦 CA-15 vless ⚡优选 410ms ✅CN 🔴联通
+  - 🇮🇹 IT-01 ss 452ms ✅CN 🔴联通
+  - 🇨🇦 CA-16 vless ⚡优选 456ms ✅CN 🔴联通
+  - 🇨🇦 CA-17 vmess ⚡优选 458ms ✅CN 🔴联通
+  - 🇳🇱 NL-01 ssr 462ms ✅CN 🔴联通
+  - 🇨🇦 CA-18 trojan 486ms ✅CN 🔴联通
+  - 🇫🇷 FR-01 vless 489ms ✅CN 🔴联通
+  - 🇩🇪 DE-01 vless 517ms ✅CN 🔴联通
+  - 🇫🇷 FR-02 vless 525ms ✅CN 🔴联通
+  - 🇭🇰 HK-01 vmess 545ms ✅CN 🔴联通
+  - 🇨🇦 CA-19 vless 588ms ✅CN 🔴联通
+  - 🇨🇦 CA-20 trojan 622ms ✅CN 🔴联通
+  - 🇨🇦 CA-21 trojan ⚡优选 645ms ✅CN 🔴联通
+  - 🇨🇦 CA-22 trojan ⚡优选 650ms ✅CN 🔴联通
+  - 🇨🇦 CA-23 trojan ⚡优选 651ms ✅CN 🔴联通
+  - 🇨🇦 CA-24 trojan ⚡优选 658ms ✅CN 🔴联通
+  - 🇨🇦 CA-25 trojan 684ms ✅CN 🔴联通
+  - 🇨🇦 CA-26 trojan ⚡优选 684ms ✅CN 🔴联通
+  - 🇪🇸 ES-01 trojan 763ms ✅CN
+  - 🇨🇦 CA-27 trojan ⚡优选 809ms ✅CN 🔴联通
+  - 🇨🇦 CA-28 trojan ⚡优选 1041ms ✅CN 🔴联通
+  - 🇨🇦 CA-29 vless ⚡优选 1152ms ✅CN 🔴联通
+  - 🇨🇦 CA-30 trojan ⚡优选 1354ms ✅CN 🔴联通
+  - 🇨🇦 CA-31 trojan ⚡优选 1368ms ✅CN 🔴联通
+  - 🇨🇦 CA-32 trojan ⚡优选 1370ms ✅CN 🔴联通
+  - 🇨🇦 CA-33 trojan ⚡优选 1394ms ✅CN 🔴联通
+  - 🇨🇦 CA-34 trojan ⚡优选 1416ms ✅CN 🔴联通
+  - 🇨🇦 CA-35 trojan ⚡优选 1420ms ✅CN 🔴联通
+  - 🇨🇦 CA-36 vless ⚡优选 1440ms ✅CN 🔴联通
+  - 🇨🇦 CA-37 trojan ⚡优选 1447ms ✅CN 🔴联通
+  - 🇨🇦 CA-38 trojan ⚡优选 1458ms ✅CN 🔴联通
+  - 🇨🇦 CA-39 trojan ⚡优选 1502ms ✅CN 🔴联通
+  - 🇨🇦 CA-40 trojan ⚡优选 1514ms ✅CN 🔴联通
+  - 🇨🇦 CA-41 trojan ⚡优选 1515ms ✅CN 🔴联通
+- name: ♻️ 自动选择
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: true
+  proxies: &id001
+  - 🇨🇦 CA-01 vless ⚡优选 246ms ✅CN 🔴联通
+  - 🇨🇦 CA-02 vless 250ms ✅CN 🔴联通
+  - 🇨🇦 CA-03 vless 256ms ✅CN 🔴联通
+  - 🇨🇦 CA-04 vless ⚡优选 270ms ✅CN 🔴联通
+  - 🇺🇸 US-01 vless 278ms ✅CN 🔴联通
+  - 🇨🇦 CA-05 vless ⚡优选 298ms ✅CN 🔴联通
+  - 🇨🇦 CA-06 vless ⚡优选 302ms ✅CN 🔴联通
+  - 🇨🇦 CA-07 vless 304ms ✅CN 🔴联通
+  - 🇨🇦 CA-08 vless ⚡优选 310ms ✅CN 🔴联通
+  - 🇨🇦 CA-09 vless 314ms ✅CN 🔴联通
+  - 🇮🇪 IE-01 ss 322ms ✅CN
+  - 🇨🇦 CA-10 vless 341ms ✅CN 🔴联通
+  - 🇨🇦 CA-11 vless ⚡优选 354ms ✅CN 🔴联通
+  - 🇨🇦 CA-12 vless ⚡优选 368ms ✅CN 🔴联通
+  - 🇨🇦 CA-13 vless ⚡优选 394ms ✅CN 🔴联通
+  - 🇨🇦 CA-14 vmess 406ms ✅CN 🔴联通
+  - 🇨🇦 CA-15 vless ⚡优选 410ms ✅CN 🔴联通
+  - 🇮🇹 IT-01 ss 452ms ✅CN 🔴联通
+  - 🇨🇦 CA-16 vless ⚡优选 456ms ✅CN 🔴联通
+  - 🇨🇦 CA-17 vmess ⚡优选 458ms ✅CN 🔴联通
+  - 🇳🇱 NL-01 ssr 462ms ✅CN 🔴联通
+  - 🇨🇦 CA-18 trojan 486ms ✅CN 🔴联通
+  - 🇫🇷 FR-01 vless 489ms ✅CN 🔴联通
+  - 🇩🇪 DE-01 vless 517ms ✅CN 🔴联通
+  - 🇫🇷 FR-02 vless 525ms ✅CN 🔴联通
+  - 🇭🇰 HK-01 vmess 545ms ✅CN 🔴联通
+  - 🇨🇦 CA-19 vless 588ms ✅CN 🔴联通
+  - 🇨🇦 CA-20 trojan 622ms ✅CN 🔴联通
+  - 🇨🇦 CA-21 trojan ⚡优选 645ms ✅CN 🔴联通
+  - 🇨🇦 CA-22 trojan ⚡优选 650ms ✅CN 🔴联通
+  - 🇨🇦 CA-23 trojan ⚡优选 651ms ✅CN 🔴联通
+  - 🇨🇦 CA-24 trojan ⚡优选 658ms ✅CN 🔴联通
+  - 🇨🇦 CA-25 trojan 684ms ✅CN 🔴联通
+  - 🇨🇦 CA-26 trojan ⚡优选 684ms ✅CN 🔴联通
+  - 🇪🇸 ES-01 trojan 763ms ✅CN
+  - 🇨🇦 CA-27 trojan ⚡优选 809ms ✅CN 🔴联通
+  - 🇨🇦 CA-28 trojan ⚡优选 1041ms ✅CN 🔴联通
+  - 🇨🇦 CA-29 vless ⚡优选 1152ms ✅CN 🔴联通
+  - 🇨🇦 CA-30 trojan ⚡优选 1354ms ✅CN 🔴联通
+  - 🇨🇦 CA-31 trojan ⚡优选 1368ms ✅CN 🔴联通
+  - 🇨🇦 CA-32 trojan ⚡优选 1370ms ✅CN 🔴联通
+  - 🇨🇦 CA-33 trojan ⚡优选 1394ms ✅CN 🔴联通
+  - 🇨🇦 CA-34 trojan ⚡优选 1416ms ✅CN 🔴联通
+  - 🇨🇦 CA-35 trojan ⚡优选 1420ms ✅CN 🔴联通
+  - 🇨🇦 CA-36 vless ⚡优选 1440ms ✅CN 🔴联通
+  - 🇨🇦 CA-37 trojan ⚡优选 1447ms ✅CN 🔴联通
+  - 🇨🇦 CA-38 trojan ⚡优选 1458ms ✅CN 🔴联通
+  - 🇨🇦 CA-39 trojan ⚡优选 1502ms ✅CN 🔴联通
+  - 🇨🇦 CA-40 trojan ⚡优选 1514ms ✅CN 🔴联通
+  - 🇨🇦 CA-41 trojan ⚡优选 1515ms ✅CN 🔴联通
+  - 🇺🇸 US-02 ss 68ms
+  - 🇺🇸 US-03 ss 103ms
+  - 🇺🇸 US-04 ss 106ms
+  - 🇨🇦 CA-42 ss 108ms
+  - 🇺🇸 US-05 vmess 108ms
+  - 🇺🇸 US-06 ss 109ms
+  - 🇺🇸 US-07 ss 118ms
+  - 🇺🇸 US-08 ss 144ms
+  - 🇺🇸 US-09 vless 146ms
+  - 🇺🇸 US-10 ss 148ms
+  - 🇺🇸 US-11 hysteria2 162ms
+  - 🇺🇸 US-12 hysteria2 164ms
+  - 🇺🇸 US-13 trojan 166ms
+  - 🇺🇸 US-14 ss 169ms
+  - 🇺🇸 US-15 ss 169ms
+  - 🇺🇸 US-16 ss 174ms
+  - 🇨🇦 CA-43 vless 182ms
+  - 🇨🇦 CA-44 ss 196ms
+  - 🇨🇦 CA-45 ss 201ms
+  - 🇺🇸 US-17 trojan 220ms
+  - 🇺🇸 US-18 trojan 231ms
+  - 🇺🇸 US-19 vless 264ms
+  - 🇺🇸 US-20 ss 272ms
+  - 🇺🇸 US-21 hysteria2 276ms
+  - 🇬🇧 GB-01 ss 340ms
+  - 🇳🇱 NL-02 ss 361ms
+  - 🇳🇱 NL-03 ss 362ms
+  - 🇳🇱 NL-04 ss 362ms
+  - 🇳🇱 NL-05 ss 366ms
+  - 🇳🇱 NL-06 ss 367ms
+  - 🇳🇱 NL-07 ss 367ms
+  - 🇳🇱 NL-08 ss 368ms
+  - 🇳🇱 NL-09 ss 369ms
+  - 🇳🇱 NL-10 ss 369ms
+  - 🇳🇱 NL-11 ss 371ms
+  - 🇳🇱 NL-12 ss 371ms
+  - 🇬🇧 GB-02 ss 372ms
+  - 🇳🇱 NL-13 ss 372ms
+  - 🇳🇱 NL-14 ss 372ms
+  - 🇳🇱 NL-15 ss 373ms
+  - 🇳🇱 NL-16 ss 374ms
+  - 🇳🇱 NL-17 ss 376ms
+  - 🇳🇱 NL-18 ss 376ms
+  - 🇳🇱 NL-19 ss 377ms
+  - 🇳🇱 NL-20 ss 377ms
+  - 🇳🇱 NL-21 ss 377ms
+  - 🇳🇱 NL-22 ss 378ms
+  - 🇳🇱 NL-23 ss 380ms
+  - 🇳🇱 NL-24 ss 380ms
+  - 🇳🇱 NL-25 ss 380ms
+  - 🇳🇱 NL-26 ss 382ms
+  - 🇳🇱 NL-27 ss 384ms
+  - 🇳🇱 NL-28 ss 388ms
+  - 🇳🇱 NL-29 ss 393ms
+  - 🇩🇪 DE-02 hysteria2 394ms
+  - 🇳🇱 NL-30 ss 399ms
+  - 🇨🇭 CH-01 ss 400ms
+  - 🇯🇵 JP-01 ss 412ms
+  - 🇮🇹 IT-02 ss 412ms
+  - 🇺🇸 US-22 vless 414ms
+  - 🇳🇱 NL-31 ss 416ms
+  - 🇳🇱 NL-32 ss 422ms
+  - 🇬🇧 GB-03 ss 422ms
+  - 🇳🇱 NL-33 ss 426ms
+  - 🇯🇵 JP-02 ss 432ms
+  - 🇮🇹 IT-03 ss 442ms
+  - 🇬🇧 GB-04 vless 450ms
+  - 🇺🇸 US-23 ss 450ms
+  - 🇨🇿 CZ-01 ss 479ms
+  - 🇳🇱 NL-34 vless 491ms
+  - 🇨🇭 CH-02 hysteria2 492ms
+  - 🇯🇵 JP-03 ss 514ms
+  - 🇳🇱 NL-35 ss 516ms
+  - 🇳🇱 NL-36 vless 517ms
+  - 🇦🇪 AE-01 vless 523ms
+  - 🇺🇸 US-24 ss 526ms
+  - 🇳🇱 NL-37 ss 530ms
+  - 🇩🇪 DE-03 trojan 542ms
+  - 🇩🇪 DE-04 vless 560ms
+  - 🇵🇱 PL-01 trojan 576ms
+  - 🇰🇷 KR-01 ss 592ms
+  - 🇸🇬 SG-01 vmess 605ms
+  - 🇸🇬 SG-02 vmess 608ms
+  - 🇱🇻 LV-01 trojan 613ms
+  - 🇩🇪 DE-05 vless 618ms
+  - 🇳🇱 NL-38 vless 630ms
+  - 🇹🇼 TW-01 anytls 636ms
+  - 🇳🇱 NL-39 ss 642ms
+  - 🇳🇱 NL-40 ss 642ms
+  - 🇳🇱 NL-41 ss 667ms
+  - 🇵🇱 PL-02 trojan 684ms
+  - 🇸🇬 SG-03 ss 696ms
+  - 🇺🇸 US-25 ss 700ms
+  - 🇰🇷 KR-02 ss 714ms
+  - 🇨🇦 CA-46 vmess 716ms
+  - 🇭🇰 HK-02 vless 727ms
+  - 🇳🇱 NL-42 ss 732ms
+  - 🇯🇵 JP-04 trojan 740ms
+  - 🇹🇷 TR-01 vless 748ms
+  - 🇮🇳 IN-01 ss 748ms
+  - 🇳🇱 NL-43 ss 757ms
+  - 🇸🇪 SE-01 vless 766ms
+  - 🇦🇹 AT-01 trojan 784ms
+  - 🇸🇬 SG-04 trojan 794ms
+  - 🇳🇱 NL-44 ss 805ms
+  - 🇿🇦 ZA-01 ss 818ms
+  - 🇳🇱 NL-45 ss 821ms
+  - 🇩🇪 DE-06 trojan 832ms
+  - 🇩🇪 DE-07 trojan 842ms
+  - 🇯🇵 JP-05 hysteria2 863ms
+  - 🇩🇪 DE-08 ss 873ms
+  - 🇹🇷 TR-02 vless 877ms
+  - 🇲🇪 ME-01 trojan 877ms
+  - 🇮🇳 IN-02 vless 884ms
+  - 🇮🇳 IN-03 vless 890ms
+  - 🇨🇦 CA-47 ss 895ms
+  - 🇰🇷 KR-03 vmess 911ms
+  - 🇳🇱 NL-46 vless 932ms
+  - 🇰🇷 KR-04 anytls 934ms
+  - 🇹🇼 TW-02 anytls 946ms
+  - 🇦🇪 AE-02 vless 963ms
+  - 🇭🇰 HK-03 ssr 965ms
+  - 🇬🇧 GB-05 ss 1022ms
+  - 🇭🇰 HK-04 ssr 1034ms
+  - 🇳🇱 NL-47 ss 1036ms
+  - 🇺🇸 US-26 vmess 1036ms
+  - 🇹🇼 TW-03 vmess 1044ms
+  - 🇳🇱 NL-48 vless 1044ms
+  - 🇭🇰 HK-05 ssr 1047ms
+  - 🇭🇰 HK-06 vmess 1049ms
+  - 🇩🇪 DE-09 vless 1054ms
+  - 🇯🇵 JP-06 trojan 1061ms
+  - 🇹🇭 TH-01 ss 1069ms
+  - 🇬🇧 GB-06 vless 1138ms
+  - 🇬🇧 GB-07 vless 1156ms
+  - 🇯🇵 JP-07 ss 1158ms
+  - 🇭🇰 HK-07 hysteria2 1166ms
+  - 🇭🇰 HK-08 anytls 1170ms
+  - 🇳🇱 NL-49 vless 1191ms
+  - 🇩🇪 DE-10 vless 1202ms
+  - 🇨🇳 CN-01 vmess 1309ms
+  - 🇺🇸 US-27 vless 1338ms
+  - 🇭🇰 HK-09 ssr 1380ms
+  - 🇨🇦 CA-48 trojan 1392ms
+  - 🇳🇱 NL-50 ss 1394ms
+  - 🇭🇰 HK-10 ssr 1426ms
+  - 🇺🇸 US-28 vless 1438ms
+  - 🇨🇦 CA-49 vless 1490ms
+  - 🇲🇪 ME-02 trojan 1501ms
+  - 🇨🇦 CA-50 vless 1505ms
+- name: 🔯 故障转移
+  type: fallback
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  lazy: true
+  proxies: *id001
+- name: 🐟 漏网之鱼
+  type: select
+  proxies:
+  - 🚀 节点选择
+  - DIRECT
+rules:
+- GEOSITE,private,DIRECT
+- GEOIP,private,DIRECT,no-resolve
+- GEOSITE,cn,DIRECT
+- GEOIP,CN,DIRECT
+- GEOSITE,geolocation-!cn,🚀 节点选择
+- MATCH,🐟 漏网之鱼

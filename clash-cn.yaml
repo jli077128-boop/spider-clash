@@ -1,0 +1,854 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: info
+unified-delay: true
+tcp-concurrent: true
+dns:
+  enable: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  nameserver:
+  - https://223.5.5.5/dns-query
+  - https://doh.pub/dns-query
+  fake-ip-filter:
+  - '*.lan'
+  - +.local
+  - +.msftconnecttest.com
+  - +.msftncsi.com
+proxies:
+- name: 🇨🇦 CA-01 vless ⚡优选 246ms ✅CN 🔴联通
+  server: saas.sin.fan
+  port: 443
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  tls: true
+  alpn:
+  - http%2F1.1
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM-TOOTFFARANGI
+    headers:
+      Host: lucasjow.us.ci
+  udp: true
+- name: 🇨🇦 CA-02 vless 250ms ✅CN 🔴联通
+  server: 104.18.43.174
+  port: 443
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+  udp: true
+- name: 🇨🇦 CA-03 vless 256ms ✅CN 🔴联通
+  server: 172.67.155.65
+  port: 2053
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip
+    headers:
+      Host: lucasjow.us.ci
+  udp: true
+- name: 🇨🇦 CA-04 vless ⚡优选 270ms ✅CN 🔴联通
+  server: saas.sin.fan
+  port: 2053
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---
+    headers:
+      Host: lucasjow.us.ci
+  udp: true
+- name: 🇺🇸 US-01 vless 278ms ✅CN 🔴联通
+  server: 162.159.250.29
+  port: 443
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+  udp: true
+- name: 🇨🇦 CA-05 vless ⚡优选 298ms ✅CN 🔴联通
+  server: www.visa.com.sg
+  port: 443
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  tls: true
+  alpn:
+  - http%2F1.1
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM-TOOTFFARANGI
+    headers:
+      Host: lucasjow.us.ci
+  udp: true
+- name: 🇨🇦 CA-06 vless ⚡优选 302ms ✅CN 🔴联通
+  server: www.visa.com.sg
+  port: 8443
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
+    headers:
+      Host: lucasjow.us.ci
+  udp: true
+- name: 🇨🇦 CA-07 vless 304ms ✅CN 🔴联通
+  server: 188.114.97.6
+  port: 2053
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---
+    headers:
+      Host: lucasjow.us.ci
+  udp: true
+- name: 🇨🇦 CA-08 vless ⚡优选 310ms ✅CN 🔴联通
+  server: www.visa.com.sg
+  port: 2053
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip
+    headers:
+      Host: lucasjow.us.ci
+  udp: true
+- name: 🇨🇦 CA-09 vless 314ms ✅CN 🔴联通
+  server: 188.114.98.0
+  port: 443
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  tls: true
+  alpn:
+  - http%2F1.1
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM-TOOTFFARANGI
+    headers:
+      Host: lucasjow.us.ci
+  udp: true
+- name: 🇮🇪 IE-01 ss 322ms ✅CN
+  server: 20.166.51.228
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: LVMlhvK82To1FGsy
+  udp: true
+- name: 🇨🇦 CA-10 vless 341ms ✅CN 🔴联通
+  server: 104.21.91.244
+  port: 443
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  tls: true
+  alpn:
+  - http/1.1
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome
+    headers:
+      Host: lucasjow.us.ci
+  udp: true
+- name: 🇨🇦 CA-11 vless ⚡优选 354ms ✅CN 🔴联通
+  server: cloudflare.182682.xyz
+  port: 2053
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip
+    headers:
+      Host: lucasjow.us.ci
+  udp: true
+- name: 🇨🇦 CA-12 vless ⚡优选 368ms ✅CN 🔴联通
+  server: cloudflare.182682.xyz
+  port: 8443
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
+    headers:
+      Host: lucasjow.us.ci
+  udp: true
+- name: 🇨🇦 CA-13 vless ⚡优选 394ms ✅CN 🔴联通
+  server: cloudflare.182682.xyz
+  port: 443
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  tls: true
+  alpn:
+  - http/1.1
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome
+    headers:
+      Host: lucasjow.us.ci
+  udp: true
+- name: 🇨🇦 CA-14 vmess 406ms ✅CN 🔴联通
+  server: us16-4.998998.best
+  port: 443
+  type: vmess
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: server1.9966338.xyz
+  network: ws
+  ws-opts:
+    path: /efrsdioy98wert
+    headers:
+      Host: server1.9966338.xyz
+  udp: true
+- name: 🇨🇦 CA-15 vless ⚡优选 410ms ✅CN 🔴联通
+  server: cf.090227.xyz
+  port: 2053
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---
+    headers:
+      Host: lucasjow.us.ci
+  udp: true
+- name: 🇮🇹 IT-01 ss 452ms ✅CN 🔴联通
+  server: 202.50.253.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇨🇦 CA-16 vless ⚡优选 456ms ✅CN 🔴联通
+  server: cf.090227.xyz
+  port: 443
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  tls: true
+  alpn:
+  - http%2F1.1
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM-TOOTFFARANGI
+    headers:
+      Host: lucasjow.us.ci
+  udp: true
+- name: 🇨🇦 CA-17 vmess ⚡优选 458ms ✅CN 🔴联通
+  server: www.visa.com.sg
+  port: 443
+  type: vmess
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /efrsdioy98wert
+    headers:
+      Host: server1.9966338.xyz
+  udp: true
+  servername: server1.9966338.xyz
+- name: 🇳🇱 NL-01 ssr 462ms ✅CN 🔴联通
+  server: 109.104.153.43
+  port: 33336
+  type: ssr
+  cipher: chacha20-ietf
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+  udp: true
+- name: 🇨🇦 CA-18 trojan 486ms ✅CN 🔴联通
+  server: b2n.ir
+  port: 443
+  type: trojan
+  password: mitivpn
+  sni: de.mitivpn.in.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: de.mitivpn.in.net
+  udp: true
+- name: 🇫🇷 FR-01 vless 489ms ✅CN 🔴联通
+  server: edge.bookmai.com
+  port: 443
+  type: vless
+  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
+  tls: true
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: mother-earth.fyi
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇩🇪 DE-01 vless 517ms ✅CN 🔴联通
+  server: 149.33.47.172
+  port: 9443
+  type: vless
+  uuid: 82eb8419-59f4-4d3e-9106-d05d22af615c
+  tls: true
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
+    short-id: b390142456517acc
+  servername: www.amazon.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇫🇷 FR-02 vless 525ms ✅CN 🔴联通
+  server: 163.245.42.48
+  port: 443
+  type: vless
+  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
+  tls: true
+  flow: xtls-rprx-vision
+  skip-cert-verify: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: mother-earth.fyi
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇭🇰 HK-01 vmess 545ms ✅CN 🔴联通
+  server: 47.242.81.94
+  port: 52080
+  type: vmess
+  uuid: e47b9f77-60e4-4738-8d53-772b6002e146
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /QQqun-737805443
+    headers:
+      Host:
+      - openai.com
+  udp: true
+- name: 🇨🇦 CA-19 vless 588ms ✅CN 🔴联通
+  server: 188.114.97.6
+  port: 443
+  type: vless
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  tls: true
+  alpn:
+  - http/1.1
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---TOOTFARANGIfp=chrome
+    headers:
+      Host: lucasjow.us.ci
+  udp: true
+- name: 🇨🇦 CA-20 trojan 622ms ✅CN 🔴联通
+  server: 188.114.98.0
+  port: 443
+  type: trojan
+  password: mitivpn
+  sni: d-e.mitivpn.in.net
+  alpn:
+  - http/1.1
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: d-e.mitivpn.in.net
+  udp: true
+- name: 🇨🇦 CA-21 trojan ⚡优选 645ms ✅CN 🔴联通
+  server: cloudflare.182682.xyz
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.pleadcourt.org
+  alpn:
+  - http/1.1
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+  udp: true
+- name: 🇨🇦 CA-22 trojan ⚡优选 650ms ✅CN 🔴联通
+  server: www.visa.com.sg
+  port: 443
+  type: trojan
+  password: mitivpn
+  sni: d-e.mitivpn.in.net
+  alpn:
+  - http/1.1
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: d-e.mitivpn.in.net
+  udp: true
+- name: 🇨🇦 CA-23 trojan ⚡优选 651ms ✅CN 🔴联通
+  server: cf.090227.xyz
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.pleadcourt.org
+  alpn:
+  - http/1.1
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+  udp: true
+- name: 🇨🇦 CA-24 trojan ⚡优选 658ms ✅CN 🔴联通
+  server: www.visa.com.sg
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+  udp: true
+- name: 🇨🇦 CA-25 trojan 684ms ✅CN 🔴联通
+  server: 104.19.229.21
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+  udp: true
+- name: 🇨🇦 CA-26 trojan ⚡优选 684ms ✅CN 🔴联通
+  server: saas.sin.fan
+  port: 443
+  type: trojan
+  password: mitivpn
+  sni: de.mitivpn.in.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: ''
+    headers:
+      Host: de.mitivpn.in.net
+  udp: true
+- name: 🇪🇸 ES-01 trojan 763ms ✅CN
+  server: 185.114.72.31
+  port: 2053
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+  udp: true
+- name: 🇨🇦 CA-27 trojan ⚡优选 809ms ✅CN 🔴联通
+  server: cf.090227.xyz
+  port: 443
+  type: trojan
+  password: mitivpn
+  sni: d-e.mitivpn.in.net
+  alpn:
+  - http/1.1
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: d-e.mitivpn.in.net
+  udp: true
+- name: 🇨🇦 CA-28 trojan ⚡优选 1041ms ✅CN 🔴联通
+  server: cf.090227.xyz
+  port: 443
+  type: trojan
+  password: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  sni: nat3.xxai.dpdns.org
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /anyway
+    headers:
+      Host: nat3.xxai.dpdns.org
+  udp: true
+- name: 🇨🇦 CA-29 vless ⚡优选 1152ms ✅CN 🔴联通
+  server: www.visa.com.sg
+  port: 443
+  type: vless
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  tls: true
+  skip-cert-verify: true
+  servername: a.cwvps.eu.org
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+  udp: true
+- name: 🇨🇦 CA-30 trojan ⚡优选 1354ms ✅CN 🔴联通
+  server: saas.sin.fan
+  port: 2053
+  type: trojan
+  password: 040870be-ae04-43d7-b265-bbe7b64b60db
+  sni: au1.yang-1989.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /872y
+    headers:
+      Host: au1.yang-1989.xyz
+  udp: true
+- name: 🇨🇦 CA-31 trojan ⚡优选 1368ms ✅CN 🔴联通
+  server: saas.sin.fan
+  port: 2096
+  type: trojan
+  password: aa308698-d9a4-43ff-a563-14636919c971
+  sni: au4.yang-1989.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /qpf7
+    headers:
+      Host: au4.yang-1989.xyz
+  udp: true
+- name: 🇨🇦 CA-32 trojan ⚡优选 1370ms ✅CN 🔴联通
+  server: saas.sin.fan
+  port: 2087
+  type: trojan
+  password: 31794262-b429-4f35-8ffe-c1fa8a43b8d7
+  sni: au3.yang-1989.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /9f81
+    headers:
+      Host: au3.yang-1989.xyz
+  udp: true
+- name: 🇨🇦 CA-33 trojan ⚡优选 1394ms ✅CN 🔴联通
+  server: www.visa.com.sg
+  port: 2083
+  type: trojan
+  password: e0303a31-0daf-4d45-ae1e-2bc0544f0ad2
+  sni: au2.yang-1989.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /as2u
+    headers:
+      Host: au2.yang-1989.xyz
+  udp: true
+- name: 🇨🇦 CA-34 trojan ⚡优选 1416ms ✅CN 🔴联通
+  server: www.visa.com.sg
+  port: 2096
+  type: trojan
+  password: aa308698-d9a4-43ff-a563-14636919c971
+  sni: au4.yang-1989.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /qpf7
+    headers:
+      Host: au4.yang-1989.xyz
+  udp: true
+- name: 🇨🇦 CA-35 trojan ⚡优选 1420ms ✅CN 🔴联通
+  server: www.visa.com.sg
+  port: 2053
+  type: trojan
+  password: 040870be-ae04-43d7-b265-bbe7b64b60db
+  sni: au1.yang-1989.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /872y
+    headers:
+      Host: au1.yang-1989.xyz
+  udp: true
+- name: 🇨🇦 CA-36 vless ⚡优选 1440ms ✅CN 🔴联通
+  server: cf.090227.xyz
+  port: 443
+  type: vless
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  tls: true
+  skip-cert-verify: true
+  servername: a.cwvps.eu.org
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+  udp: true
+- name: 🇨🇦 CA-37 trojan ⚡优选 1447ms ✅CN 🔴联通
+  server: cloudflare.182682.xyz
+  port: 2053
+  type: trojan
+  password: 040870be-ae04-43d7-b265-bbe7b64b60db
+  sni: au1.yang-1989.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /872y
+    headers:
+      Host: au1.yang-1989.xyz
+  udp: true
+- name: 🇨🇦 CA-38 trojan ⚡优选 1458ms ✅CN 🔴联通
+  server: cloudflare.182682.xyz
+  port: 2096
+  type: trojan
+  password: aa308698-d9a4-43ff-a563-14636919c971
+  sni: au4.yang-1989.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /qpf7
+    headers:
+      Host: au4.yang-1989.xyz
+  udp: true
+- name: 🇨🇦 CA-39 trojan ⚡优选 1502ms ✅CN 🔴联通
+  server: cf.090227.xyz
+  port: 2087
+  type: trojan
+  password: 31794262-b429-4f35-8ffe-c1fa8a43b8d7
+  sni: au3.yang-1989.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /9f81
+    headers:
+      Host: au3.yang-1989.xyz
+  udp: true
+- name: 🇨🇦 CA-40 trojan ⚡优选 1514ms ✅CN 🔴联通
+  server: cf.090227.xyz
+  port: 2096
+  type: trojan
+  password: aa308698-d9a4-43ff-a563-14636919c971
+  sni: au4.yang-1989.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /qpf7
+    headers:
+      Host: au4.yang-1989.xyz
+  udp: true
+- name: 🇨🇦 CA-41 trojan ⚡优选 1515ms ✅CN 🔴联通
+  server: cf.090227.xyz
+  port: 2083
+  type: trojan
+  password: e0303a31-0daf-4d45-ae1e-2bc0544f0ad2
+  sni: au2.yang-1989.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /as2u
+    headers:
+      Host: au2.yang-1989.xyz
+  udp: true
+proxy-groups:
+- name: 🚀 节点选择
+  type: select
+  proxies:
+  - ♻️ 自动选择
+  - 🔯 故障转移
+  - DIRECT
+  - 🇨🇦 CA-01 vless ⚡优选 246ms ✅CN 🔴联通
+  - 🇨🇦 CA-02 vless 250ms ✅CN 🔴联通
+  - 🇨🇦 CA-03 vless 256ms ✅CN 🔴联通
+  - 🇨🇦 CA-04 vless ⚡优选 270ms ✅CN 🔴联通
+  - 🇺🇸 US-01 vless 278ms ✅CN 🔴联通
+  - 🇨🇦 CA-05 vless ⚡优选 298ms ✅CN 🔴联通
+  - 🇨🇦 CA-06 vless ⚡优选 302ms ✅CN 🔴联通
+  - 🇨🇦 CA-07 vless 304ms ✅CN 🔴联通
+  - 🇨🇦 CA-08 vless ⚡优选 310ms ✅CN 🔴联通
+  - 🇨🇦 CA-09 vless 314ms ✅CN 🔴联通
+  - 🇮🇪 IE-01 ss 322ms ✅CN
+  - 🇨🇦 CA-10 vless 341ms ✅CN 🔴联通
+  - 🇨🇦 CA-11 vless ⚡优选 354ms ✅CN 🔴联通
+  - 🇨🇦 CA-12 vless ⚡优选 368ms ✅CN 🔴联通
+  - 🇨🇦 CA-13 vless ⚡优选 394ms ✅CN 🔴联通
+  - 🇨🇦 CA-14 vmess 406ms ✅CN 🔴联通
+  - 🇨🇦 CA-15 vless ⚡优选 410ms ✅CN 🔴联通
+  - 🇮🇹 IT-01 ss 452ms ✅CN 🔴联通
+  - 🇨🇦 CA-16 vless ⚡优选 456ms ✅CN 🔴联通
+  - 🇨🇦 CA-17 vmess ⚡优选 458ms ✅CN 🔴联通
+  - 🇳🇱 NL-01 ssr 462ms ✅CN 🔴联通
+  - 🇨🇦 CA-18 trojan 486ms ✅CN 🔴联通
+  - 🇫🇷 FR-01 vless 489ms ✅CN 🔴联通
+  - 🇩🇪 DE-01 vless 517ms ✅CN 🔴联通
+  - 🇫🇷 FR-02 vless 525ms ✅CN 🔴联通
+  - 🇭🇰 HK-01 vmess 545ms ✅CN 🔴联通
+  - 🇨🇦 CA-19 vless 588ms ✅CN 🔴联通
+  - 🇨🇦 CA-20 trojan 622ms ✅CN 🔴联通
+  - 🇨🇦 CA-21 trojan ⚡优选 645ms ✅CN 🔴联通
+  - 🇨🇦 CA-22 trojan ⚡优选 650ms ✅CN 🔴联通
+  - 🇨🇦 CA-23 trojan ⚡优选 651ms ✅CN 🔴联通
+  - 🇨🇦 CA-24 trojan ⚡优选 658ms ✅CN 🔴联通
+  - 🇨🇦 CA-25 trojan 684ms ✅CN 🔴联通
+  - 🇨🇦 CA-26 trojan ⚡优选 684ms ✅CN 🔴联通
+  - 🇪🇸 ES-01 trojan 763ms ✅CN
+  - 🇨🇦 CA-27 trojan ⚡优选 809ms ✅CN 🔴联通
+  - 🇨🇦 CA-28 trojan ⚡优选 1041ms ✅CN 🔴联通
+  - 🇨🇦 CA-29 vless ⚡优选 1152ms ✅CN 🔴联通
+  - 🇨🇦 CA-30 trojan ⚡优选 1354ms ✅CN 🔴联通
+  - 🇨🇦 CA-31 trojan ⚡优选 1368ms ✅CN 🔴联通
+  - 🇨🇦 CA-32 trojan ⚡优选 1370ms ✅CN 🔴联通
+  - 🇨🇦 CA-33 trojan ⚡优选 1394ms ✅CN 🔴联通
+  - 🇨🇦 CA-34 trojan ⚡优选 1416ms ✅CN 🔴联通
+  - 🇨🇦 CA-35 trojan ⚡优选 1420ms ✅CN 🔴联通
+  - 🇨🇦 CA-36 vless ⚡优选 1440ms ✅CN 🔴联通
+  - 🇨🇦 CA-37 trojan ⚡优选 1447ms ✅CN 🔴联通
+  - 🇨🇦 CA-38 trojan ⚡优选 1458ms ✅CN 🔴联通
+  - 🇨🇦 CA-39 trojan ⚡优选 1502ms ✅CN 🔴联通
+  - 🇨🇦 CA-40 trojan ⚡优选 1514ms ✅CN 🔴联通
+  - 🇨🇦 CA-41 trojan ⚡优选 1515ms ✅CN 🔴联通
+- name: ♻️ 自动选择
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: true
+  proxies: &id001
+  - 🇨🇦 CA-01 vless ⚡优选 246ms ✅CN 🔴联通
+  - 🇨🇦 CA-02 vless 250ms ✅CN 🔴联通
+  - 🇨🇦 CA-03 vless 256ms ✅CN 🔴联通
+  - 🇨🇦 CA-04 vless ⚡优选 270ms ✅CN 🔴联通
+  - 🇺🇸 US-01 vless 278ms ✅CN 🔴联通
+  - 🇨🇦 CA-05 vless ⚡优选 298ms ✅CN 🔴联通
+  - 🇨🇦 CA-06 vless ⚡优选 302ms ✅CN 🔴联通
+  - 🇨🇦 CA-07 vless 304ms ✅CN 🔴联通
+  - 🇨🇦 CA-08 vless ⚡优选 310ms ✅CN 🔴联通
+  - 🇨🇦 CA-09 vless 314ms ✅CN 🔴联通
+  - 🇮🇪 IE-01 ss 322ms ✅CN
+  - 🇨🇦 CA-10 vless 341ms ✅CN 🔴联通
+  - 🇨🇦 CA-11 vless ⚡优选 354ms ✅CN 🔴联通
+  - 🇨🇦 CA-12 vless ⚡优选 368ms ✅CN 🔴联通
+  - 🇨🇦 CA-13 vless ⚡优选 394ms ✅CN 🔴联通
+  - 🇨🇦 CA-14 vmess 406ms ✅CN 🔴联通
+  - 🇨🇦 CA-15 vless ⚡优选 410ms ✅CN 🔴联通
+  - 🇮🇹 IT-01 ss 452ms ✅CN 🔴联通
+  - 🇨🇦 CA-16 vless ⚡优选 456ms ✅CN 🔴联通
+  - 🇨🇦 CA-17 vmess ⚡优选 458ms ✅CN 🔴联通
+  - 🇳🇱 NL-01 ssr 462ms ✅CN 🔴联通
+  - 🇨🇦 CA-18 trojan 486ms ✅CN 🔴联通
+  - 🇫🇷 FR-01 vless 489ms ✅CN 🔴联通
+  - 🇩🇪 DE-01 vless 517ms ✅CN 🔴联通
+  - 🇫🇷 FR-02 vless 525ms ✅CN 🔴联通
+  - 🇭🇰 HK-01 vmess 545ms ✅CN 🔴联通
+  - 🇨🇦 CA-19 vless 588ms ✅CN 🔴联通
+  - 🇨🇦 CA-20 trojan 622ms ✅CN 🔴联通
+  - 🇨🇦 CA-21 trojan ⚡优选 645ms ✅CN 🔴联通
+  - 🇨🇦 CA-22 trojan ⚡优选 650ms ✅CN 🔴联通
+  - 🇨🇦 CA-23 trojan ⚡优选 651ms ✅CN 🔴联通
+  - 🇨🇦 CA-24 trojan ⚡优选 658ms ✅CN 🔴联通
+  - 🇨🇦 CA-25 trojan 684ms ✅CN 🔴联通
+  - 🇨🇦 CA-26 trojan ⚡优选 684ms ✅CN 🔴联通
+  - 🇪🇸 ES-01 trojan 763ms ✅CN
+  - 🇨🇦 CA-27 trojan ⚡优选 809ms ✅CN 🔴联通
+  - 🇨🇦 CA-28 trojan ⚡优选 1041ms ✅CN 🔴联通
+  - 🇨🇦 CA-29 vless ⚡优选 1152ms ✅CN 🔴联通
+  - 🇨🇦 CA-30 trojan ⚡优选 1354ms ✅CN 🔴联通
+  - 🇨🇦 CA-31 trojan ⚡优选 1368ms ✅CN 🔴联通
+  - 🇨🇦 CA-32 trojan ⚡优选 1370ms ✅CN 🔴联通
+  - 🇨🇦 CA-33 trojan ⚡优选 1394ms ✅CN 🔴联通
+  - 🇨🇦 CA-34 trojan ⚡优选 1416ms ✅CN 🔴联通
+  - 🇨🇦 CA-35 trojan ⚡优选 1420ms ✅CN 🔴联通
+  - 🇨🇦 CA-36 vless ⚡优选 1440ms ✅CN 🔴联通
+  - 🇨🇦 CA-37 trojan ⚡优选 1447ms ✅CN 🔴联通
+  - 🇨🇦 CA-38 trojan ⚡优选 1458ms ✅CN 🔴联通
+  - 🇨🇦 CA-39 trojan ⚡优选 1502ms ✅CN 🔴联通
+  - 🇨🇦 CA-40 trojan ⚡优选 1514ms ✅CN 🔴联通
+  - 🇨🇦 CA-41 trojan ⚡优选 1515ms ✅CN 🔴联通
+- name: 🔯 故障转移
+  type: fallback
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  lazy: true
+  proxies: *id001
+- name: 🐟 漏网之鱼
+  type: select
+  proxies:
+  - 🚀 节点选择
+  - DIRECT
+rules:
+- GEOSITE,private,DIRECT
+- GEOIP,private,DIRECT,no-resolve
+- GEOSITE,cn,DIRECT
+- GEOIP,CN,DIRECT
+- GEOSITE,geolocation-!cn,🚀 节点选择
+- MATCH,🐟 漏网之鱼
